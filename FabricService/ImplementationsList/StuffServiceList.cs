@@ -4,6 +4,9 @@ using FabricService.Interfaces;
 using FabricService.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace FabricService.ImplementationsList
 {
@@ -13,252 +16,167 @@ namespace FabricService.ImplementationsList
 
         public StuffServiceList()
         {
-            source = DataListSingleton.GetExample();
+            source = DataListSingleton.GetInstance();
         }
 
         public List<StuffViewModel> GetList()
         {
-            List<StuffViewModel> result = new List<StuffViewModel>();
-            for (int i = 0; i < source.Stuffs.Count; ++i)
-            {
-                // требуется дополнительно получить список компонентов для изделия и их количество
-                List<StuffPartsViewModel> productComponents = new List<StuffPartsViewModel>();
-                for (int j = 0; j < source.StuffParts.Count; ++j)
+            List<StuffViewModel> result = source.Stuffs
+                .Select(rec => new StuffViewModel
                 {
-                    if (source.StuffParts[j].StuffId == source.Stuffs[i].Id)
-                    {
-                        string componentName = string.Empty;
-                        for (int k = 0; k < source.Parts.Count; ++k)
-                        {
-                            if (source.StuffParts[j].PartId == source.Parts[k].Id)
+                    Id = rec.Id,
+                    StuffName = rec.StuffName,
+                    Cost = rec.Cost,
+                    StuffParts = source.StuffParts
+                            .Where(recPC => recPC.StuffId == rec.Id)
+                            .Select(recPC => new StuffPartViewModel
                             {
-                                componentName = source.Parts[k].PartName;
-                                break;
-                            }
-                        }
-                        productComponents.Add(new StuffPartsViewModel
-                        {
-                            Id = source.StuffParts[j].Id,
-                            StuffId = source.StuffParts[j].StuffId,
-                            PartId = source.StuffParts[j].PartId,
-                            PartName = componentName,
-                            Amount = source.StuffParts[j].Amount
-                        });
-                    }
-                }
-                result.Add(new StuffViewModel
-                {
-                    Id = source.Stuffs[i].Id,
-                    StuffName = source.Stuffs[i].StuffName,
-                    Cost = source.Stuffs[i].Cost,
-                    StuffParts = productComponents
-                });
-            }
+                                Id = recPC.Id,
+                                StuffId = recPC.StuffId,
+                                PartId = recPC.PartId,
+                                PartName = source.Parts
+                                    .FirstOrDefault(recC => recC.Id == recPC.PartId)?.PartName,
+                                Count = recPC.Count
+                            })
+                            .ToList()
+                })
+                .ToList();
             return result;
         }
 
         public StuffViewModel GetElement(int id)
         {
-            for (int i = 0; i < source.Stuffs.Count; ++i)
+            Stuff element = source.Stuffs.FirstOrDefault(rec => rec.Id == id);
+            if (element != null)
             {
-                // требуется дополнительно получить список компонентов для изделия и их количество
-                List<StuffPartsViewModel> productComponents = new List<StuffPartsViewModel>();
-                for (int j = 0; j < source.StuffParts.Count; ++j)
+                return new StuffViewModel
                 {
-                    if (source.StuffParts[j].StuffId == source.Stuffs[i].Id)
-                    {
-                        string componentName = string.Empty;
-                        for (int k = 0; k < source.Parts.Count; ++k)
-                        {
-                            if (source.StuffParts[j].PartId == source.Parts[k].Id)
+                    Id = element.Id,
+                    StuffName = element.StuffName,
+                    Cost = element.Cost,
+                    StuffParts = source.StuffParts
+                            .Where(recPC => recPC.StuffId == element.Id)
+                            .Select(recPC => new StuffPartViewModel
                             {
-                                componentName = source.Parts[k].PartName;
-                                break;
-                            }
-                        }
-                        productComponents.Add(new StuffPartsViewModel
-                        {
-                            Id = source.StuffParts[j].Id,
-                            StuffId = source.StuffParts[j].StuffId,
-                            PartId = source.StuffParts[j].PartId,
-                            PartName = componentName,
-                            Amount = source.StuffParts[j].Amount
-                        });
-                    }
-                }
-                if (source.Stuffs[i].Id == id)
-                {
-                    return new StuffViewModel
-                    {
-                        Id = source.Stuffs[i].Id,
-                        StuffName = source.Stuffs[i].StuffName,
-                        Cost = source.Stuffs[i].Cost,
-                        StuffParts = productComponents
-                    };
-                }
+                                Id = recPC.Id,
+                                StuffId = recPC.StuffId,
+                                PartId = recPC.PartId,
+                                PartName = source.Parts
+                                        .FirstOrDefault(recC => recC.Id == recPC.PartId)?.PartName,
+                                Count = recPC.Count
+                            })
+                            .ToList()
+                };
             }
-
             throw new Exception("Элемент не найден");
         }
 
         public void AddElement(StuffBindingModel model)
         {
-            int maxId = 0;
-            for (int i = 0; i < source.Stuffs.Count; ++i)
+            Stuff element = source.Stuffs.FirstOrDefault(rec => rec.StuffName == model.StuffName);
+            if (element != null)
             {
-                if (source.Stuffs[i].Id > maxId)
-                {
-                    maxId = source.Stuffs[i].Id;
-                }
-                if (source.Stuffs[i].StuffName == model.StuffName)
-                {
-                    throw new Exception("Уже есть изделие с таким названием");
-                }
+                throw new Exception("Уже есть изделие с таким названием");
             }
+            int maxId = source.Stuffs.Count > 0 ? source.Stuffs.Max(rec => rec.Id) : 0;
             source.Stuffs.Add(new Stuff
             {
                 Id = maxId + 1,
                 StuffName = model.StuffName,
                 Cost = model.Cost
             });
-            // компоненты для изделия
-            int maxPCId = 0;
-            for (int i = 0; i < source.StuffParts.Count; ++i)
+            int maxPCId = source.StuffParts.Count > 0 ?
+                                    source.StuffParts.Max(rec => rec.Id) : 0;
+            var groupParts = model.StuffParts
+                                        .GroupBy(rec => rec.PartId)
+                                        .Select(rec => new
+                                        {
+                                            PartId = rec.Key,
+                                            Count = rec.Sum(r => r.Count)
+                                        });
+            foreach (var groupPart in groupParts)
             {
-                if (source.StuffParts[i].Id > maxPCId)
-                {
-                    maxPCId = source.StuffParts[i].Id;
-                }
-            }
-            // убираем дубли по компонентам
-            for (int i = 0; i < model.StuffParts.Count; ++i)
-            {
-                for (int j = 1; j < model.StuffParts.Count; ++j)
-                {
-                    if(model.StuffParts[i].PartId ==
-                        model.StuffParts[j].PartId)
-                    {
-                        model.StuffParts[i].Amount +=
-                            model.StuffParts[j].Amount;
-                        model.StuffParts.RemoveAt(j--);
-                    }
-                }
-            }
-            // добавляем компоненты
-            for (int i = 0; i < model.StuffParts.Count; ++i)
-            {
-                source.StuffParts.Add(new StuffParts
+                source.StuffParts.Add(new StuffPart
                 {
                     Id = ++maxPCId,
                     StuffId = maxId + 1,
-                    PartId = model.StuffParts[i].PartId,
-                    Amount = model.StuffParts[i].Amount
+                    PartId = groupPart.PartId,
+                    Count = groupPart.Count
                 });
             }
         }
 
         public void UpdElement(StuffBindingModel model)
         {
-            int index = -1;
-            for (int i = 0; i < source.Stuffs.Count; ++i)
+            Stuff element = source.Stuffs.FirstOrDefault(rec =>
+                                        rec.StuffName == model.StuffName && rec.Id != model.Id);
+            if (element != null)
             {
-                if (source.Stuffs[i].Id == model.Id)
-                {
-                    index = i;
-                }
-                if (source.Stuffs[i].StuffName == model.StuffName && 
-                    source.Stuffs[i].Id != model.Id)
-                {
-                    throw new Exception("Уже есть изделие с таким названием");
-                }
+                throw new Exception("Уже есть изделие с таким названием");
             }
-            if (index == -1)
+            element = source.Stuffs.FirstOrDefault(rec => rec.Id == model.Id);
+            if (element == null)
             {
                 throw new Exception("Элемент не найден");
             }
-            source.Stuffs[index].StuffName = model.StuffName;
-            source.Stuffs[index].Cost = model.Cost;
-            int maxPCId = 0;
-            for (int i = 0; i < source.StuffParts.Count; ++i)
+            element.StuffName = model.StuffName;
+            element.Cost = model.Cost;
+
+            int maxPCId = source.StuffParts.Count > 0 ? source.StuffParts.Max(rec => rec.Id) : 0;
+            var compIds = model.StuffParts.Select(rec => rec.PartId).Distinct();
+            var updateParts = source.StuffParts
+                                            .Where(rec => rec.StuffId == model.Id &&
+                                           compIds.Contains(rec.PartId));
+            foreach (var updatePart in updateParts)
             {
-                if (source.StuffParts[i].Id > maxPCId)
-                {
-                    maxPCId = source.StuffParts[i].Id;
-                }
+                updatePart.Count = model.StuffParts
+                                                .FirstOrDefault(rec => rec.Id == updatePart.Id).Count;
             }
-            // обновляем существуюущие компоненты
-            for (int i = 0; i < source.StuffParts.Count; ++i)
+            source.StuffParts.RemoveAll(rec => rec.StuffId == model.Id &&
+                                       !compIds.Contains(rec.PartId));
+            var groupParts = model.StuffParts
+                                        .Where(rec => rec.Id == 0)
+                                        .GroupBy(rec => rec.PartId)
+                                        .Select(rec => new
+                                        {
+                                            PartId = rec.Key,
+                                            Count = rec.Sum(r => r.Count)
+                                        });
+            foreach (var groupPart in groupParts)
             {
-                if (source.StuffParts[i].StuffId == model.Id)
+                StuffPart elementPC = source.StuffParts
+                                        .FirstOrDefault(rec => rec.StuffId == model.Id &&
+                                                        rec.PartId == groupPart.PartId);
+                if (elementPC != null)
                 {
-                    bool flag = true;
-                    for (int j = 0; j < model.StuffParts.Count; ++j)
-                    {
-                        // если встретили, то изменяем количество
-                        if (source.StuffParts[i].Id == model.StuffParts[j].Id)
-                        {
-                            source.StuffParts[i].Amount = model.StuffParts[j].Amount;
-                            flag = false;
-                            break;
-                        }
-                    }
-                    // если не встретили, то удаляем
-                    if(flag)
-                    {
-                        source.StuffParts.RemoveAt(i--);
-                    }
+                    elementPC.Count += groupPart.Count;
                 }
-            }
-            // новые записи
-            for(int i = 0; i < model.StuffParts.Count; ++i)
-            {
-                if(model.StuffParts[i].Id == 0)
+                else
                 {
-                    // ищем дубли
-                    for (int j = 0; j < source.StuffParts.Count; ++j)
+                    source.StuffParts.Add(new StuffPart
                     {
-                        if (source.StuffParts[j].StuffId == model.Id &&
-                            source.StuffParts[j].PartId == model.StuffParts[i].PartId)
-                        {
-                            source.StuffParts[j].Amount += model.StuffParts[i].Amount;
-                            model.StuffParts[i].Id = source.StuffParts[j].Id;
-                            break;
-                        }
-                    }
-                    // если не нашли дубли, то новая запись
-                    if (model.StuffParts[i].Id == 0)
-                    {
-                        source.StuffParts.Add(new StuffParts
-                        {
-                            Id = ++maxPCId,
-                            StuffId = model.Id,
-                            PartId = model.StuffParts[i].PartId,
-                            Amount = model.StuffParts[i].Amount
-                        });
-                    }
+                        Id = ++maxPCId,
+                        StuffId = model.Id,
+                        PartId = groupPart.PartId,
+                        Count = groupPart.Count
+                    });
                 }
             }
         }
 
         public void DelElement(int id)
         {
-            // удаяем записи по компонентам при удалении изделия
-            for (int i = 0; i < source.StuffParts.Count; ++i)
+            Stuff element = source.Stuffs.FirstOrDefault(rec => rec.Id == id);
+            if (element != null)
             {
-                if (source.StuffParts[i].StuffId == id)
-                {
-                    source.StuffParts.RemoveAt(i--);
-                }
+                source.StuffParts.RemoveAll(rec => rec.StuffId == id);
+                source.Stuffs.Remove(element);
             }
-            for (int i = 0; i < source.Stuffs.Count; ++i)
+            else
             {
-                if (source.Stuffs[i].Id == id)
-                {
-                    source.Stuffs.RemoveAt(i);
-                    return;
-                }
+                throw new Exception("Элемент не найден");
             }
-            throw new Exception("Элемент не найден");
         }
     }
+
 }

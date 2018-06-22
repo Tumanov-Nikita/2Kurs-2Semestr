@@ -13,11 +13,11 @@ namespace FabricView
         [Dependency]
         public new IUnityContainer Container { get; set; }
 
-        public StuffPartsViewModel Model { set { model = value; }  get { return model; } }
+        public StuffPartViewModel Model { set { model = value; } get { return model; } }
 
         private readonly IPartService service;
 
-        private StuffPartsViewModel model;
+        private StuffPartViewModel model;
 
         public FormStuffPart(IPartService service)
         {
@@ -25,17 +25,17 @@ namespace FabricView
             this.service = service;
         }
 
-        private void FormProductComponent_Load(object sender, EventArgs e)
+        private void FormStuffPart_Load(object sender, EventArgs e)
         {
             try
             {
                 List<PartViewModel> list = service.GetList();
                 if (list != null)
                 {
-                    comboBoxComponent.DisplayMember = "PartName";
-                    comboBoxComponent.ValueMember = "Id";
-                    comboBoxComponent.DataSource = list;
-                    comboBoxComponent.SelectedItem = null;
+                    comboBoxPart.DisplayMember = "PartName";
+                    comboBoxPart.ValueMember = "Id";
+                    comboBoxPart.DataSource = list;
+                    comboBoxPart.SelectedItem = null;
                 }
             }
             catch (Exception ex)
@@ -44,9 +44,9 @@ namespace FabricView
             }
             if (model != null)
             {
-                comboBoxComponent.Enabled = false;
-                comboBoxComponent.SelectedValue = model.PartId;
-                textBoxCount.Text = model.Amount.ToString();
+                comboBoxPart.Enabled = false;
+                comboBoxPart.SelectedValue = model.PartId;
+                textBoxCount.Text = model.Count.ToString();
             }
         }
 
@@ -57,7 +57,7 @@ namespace FabricView
                 MessageBox.Show("Заполните поле Количество", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            if (comboBoxComponent.SelectedValue == null)
+            if (comboBoxPart.SelectedValue == null)
             {
                 MessageBox.Show("Выберите компонент", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -66,16 +66,16 @@ namespace FabricView
             {
                 if (model == null)
                 {
-                    model = new StuffPartsViewModel
+                    model = new StuffPartViewModel
                     {
-                        PartId = Convert.ToInt32(comboBoxComponent.SelectedValue),
-                        PartName = comboBoxComponent.Text,
-                        Amount = Convert.ToInt32(textBoxCount.Text)
+                        PartId = Convert.ToInt32(comboBoxPart.SelectedValue),
+                        PartName = comboBoxPart.Text,
+                        Count = Convert.ToInt32(textBoxCount.Text)
                     };
                 }
                 else
                 {
-                    model.Amount = Convert.ToInt32(textBoxCount.Text);
+                    model.Count = Convert.ToInt32(textBoxCount.Text);
                 }
                 MessageBox.Show("Сохранение прошло успешно", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 DialogResult = DialogResult.OK;

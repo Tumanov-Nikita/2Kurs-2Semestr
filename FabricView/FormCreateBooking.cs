@@ -18,9 +18,9 @@ namespace FabricView
 
         private readonly IStuffService serviceP;
 
-        private readonly IMainService serviceM;
+        private readonly IGeneralService serviceM;
 
-        public FormCreateBooking(ICustomerService serviceC, IStuffService serviceP, IMainService serviceM)
+        public FormCreateBooking(ICustomerService serviceC, IStuffService serviceP, IGeneralService serviceM)
         {
             InitializeComponent();
             this.serviceC = serviceC;
@@ -28,25 +28,25 @@ namespace FabricView
             this.serviceM = serviceM;
         }
 
-        private void FormCreateOrder_Load(object sender, EventArgs e)
+        private void FormCreateBooking_Load(object sender, EventArgs e)
         {
             try
             {
                 List<CustomerViewModel> listC = serviceC.GetList();
                 if (listC != null)
                 {
-                    comboBoxClient.DisplayMember = "CustomerFIO";
-                    comboBoxClient.ValueMember = "Id";
-                    comboBoxClient.DataSource = listC;
-                    comboBoxClient.SelectedItem = null;
+                    comboBoxCustomer.DisplayMember = "CustomerFIO";
+                    comboBoxCustomer.ValueMember = "Id";
+                    comboBoxCustomer.DataSource = listC;
+                    comboBoxCustomer.SelectedItem = null;
                 }
                 List<StuffViewModel> listP = serviceP.GetList();
                 if (listP != null)
                 {
-                    comboBoxProduct.DisplayMember = "StuffName";
-                    comboBoxProduct.ValueMember = "Id";
-                    comboBoxProduct.DataSource = listP;
-                    comboBoxProduct.SelectedItem = null;
+                    comboBoxStuff.DisplayMember = "StuffName";
+                    comboBoxStuff.ValueMember = "Id";
+                    comboBoxStuff.DataSource = listP;
+                    comboBoxStuff.SelectedItem = null;
                 }
             }
             catch (Exception ex)
@@ -57,16 +57,16 @@ namespace FabricView
 
         private void CalcSum()
         {
-            if (comboBoxProduct.SelectedValue != null && !string.IsNullOrEmpty(textBoxCount.Text))
+            if (comboBoxStuff.SelectedValue != null && !string.IsNullOrEmpty(textBoxCount.Text))
             {
                 try
                 {
-                    int id = Convert.ToInt32(comboBoxProduct.SelectedValue);
+                    int id = Convert.ToInt32(comboBoxStuff.SelectedValue);
                     StuffViewModel product = serviceP.GetElement(id);
                     int count = Convert.ToInt32(textBoxCount.Text);
                     textBoxSum.Text = (count * product.Cost).ToString();
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
@@ -78,7 +78,7 @@ namespace FabricView
             CalcSum();
         }
 
-        private void comboBoxProduct_SelectedIndexChanged(object sender, EventArgs e)
+        private void comboBoxStuff_SelectedIndexChanged(object sender, EventArgs e)
         {
             CalcSum();
         }
@@ -90,12 +90,12 @@ namespace FabricView
                 MessageBox.Show("Заполните поле Количество", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            if (comboBoxClient.SelectedValue == null)
+            if (comboBoxCustomer.SelectedValue == null)
             {
                 MessageBox.Show("Выберите клиента", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            if (comboBoxProduct.SelectedValue == null)
+            if (comboBoxStuff.SelectedValue == null)
             {
                 MessageBox.Show("Выберите изделие", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -104,10 +104,10 @@ namespace FabricView
             {
                 serviceM.CreateBooking(new BookingBindingModel
                 {
-                    CustomerId = Convert.ToInt32(comboBoxClient.SelectedValue),
-                    StuffId = Convert.ToInt32(comboBoxProduct.SelectedValue),
-                    Amount = Convert.ToInt32(textBoxCount.Text),
-                    Sum = Convert.ToInt32(textBoxSum.Text)
+                    CustomerId = Convert.ToInt32(comboBoxCustomer.SelectedValue),
+                    StuffId = Convert.ToInt32(comboBoxStuff.SelectedValue),
+                    Count = Convert.ToInt32(textBoxCount.Text),
+                    Cost = Convert.ToInt32(textBoxSum.Text)
                 });
                 MessageBox.Show("Сохранение прошло успешно", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 DialogResult = DialogResult.OK;

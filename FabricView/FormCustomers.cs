@@ -21,7 +21,7 @@ namespace FabricView
             this.service = service;
         }
 
-        private void FormClients_Load(object sender, EventArgs e)
+        private void FormCustomers_Load(object sender, EventArgs e)
         {
             LoadData();
         }
@@ -47,7 +47,7 @@ namespace FabricView
         private void buttonAdd_Click(object sender, EventArgs e)
         {
             var form = Container.Resolve<FormCustomer>();
-            if(form.ShowDialog() == DialogResult.OK)
+            if (form.ShowDialog() == DialogResult.OK)
             {
                 LoadData();
             }
@@ -55,7 +55,7 @@ namespace FabricView
 
         private void buttonUpd_Click(object sender, EventArgs e)
         {
-            if(dataGridView.SelectedRows.Count == 1)
+            if (dataGridView.SelectedRows.Count == 1)
             {
                 var form = Container.Resolve<FormCustomer>();
                 form.Id = Convert.ToInt32(dataGridView.SelectedRows[0].Cells[0].Value);
@@ -70,7 +70,7 @@ namespace FabricView
         {
             if (dataGridView.SelectedRows.Count == 1)
             {
-                if(MessageBox.Show("Удалить запись", "Вопрос", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                if (MessageBox.Show("Удалить запись", "Вопрос", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     int id = Convert.ToInt32(dataGridView.SelectedRows[0].Cells[0].Value);
                     try

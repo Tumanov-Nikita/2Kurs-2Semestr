@@ -20,7 +20,7 @@ namespace FabricView
 
         private int? id;
 
-        private List<StuffPartsViewModel> productComponents;
+        private List<StuffPartViewModel> productParts;
 
         public FormStuff(IStuffService service)
         {
@@ -28,7 +28,7 @@ namespace FabricView
             this.service = service;
         }
 
-        private void FormProduct_Load(object sender, EventArgs e)
+        private void FormStuff_Load(object sender, EventArgs e)
         {
             if (id.HasValue)
             {
@@ -39,7 +39,7 @@ namespace FabricView
                     {
                         textBoxName.Text = view.StuffName;
                         textBoxPrice.Text = view.Cost.ToString();
-                        productComponents = view.StuffParts;
+                        productParts = view.StuffParts;
                         LoadData();
                     }
                 }
@@ -50,7 +50,7 @@ namespace FabricView
             }
             else
             {
-                productComponents = new List<StuffPartsViewModel>();
+                productParts = new List<StuffPartViewModel>();
             }
         }
 
@@ -58,10 +58,10 @@ namespace FabricView
         {
             try
             {
-                if (productComponents != null)
+                if (productParts != null)
                 {
                     dataGridView.DataSource = null;
-                    dataGridView.DataSource = productComponents;
+                    dataGridView.DataSource = productParts;
                     dataGridView.Columns[0].Visible = false;
                     dataGridView.Columns[1].Visible = false;
                     dataGridView.Columns[2].Visible = false;
@@ -79,13 +79,13 @@ namespace FabricView
             var form = Container.Resolve<FormStuffPart>();
             if (form.ShowDialog() == DialogResult.OK)
             {
-                if(form.Model != null)
+                if (form.Model != null)
                 {
-                    if(id.HasValue)
+                    if (id.HasValue)
                     {
                         form.Model.StuffId = id.Value;
                     }
-                    productComponents.Add(form.Model);
+                    productParts.Add(form.Model);
                 }
                 LoadData();
             }
@@ -96,10 +96,10 @@ namespace FabricView
             if (dataGridView.SelectedRows.Count == 1)
             {
                 var form = Container.Resolve<FormStuffPart>();
-                form.Model = productComponents[dataGridView.SelectedRows[0].Cells[0].RowIndex];
+                form.Model = productParts[dataGridView.SelectedRows[0].Cells[0].RowIndex];
                 if (form.ShowDialog() == DialogResult.OK)
                 {
-                    productComponents[dataGridView.SelectedRows[0].Cells[0].RowIndex] = form.Model;
+                    productParts[dataGridView.SelectedRows[0].Cells[0].RowIndex] = form.Model;
                     LoadData();
                 }
             }
@@ -113,7 +113,7 @@ namespace FabricView
                 {
                     try
                     {
-                        productComponents.RemoveAt(dataGridView.SelectedRows[0].Cells[0].RowIndex);
+                        productParts.RemoveAt(dataGridView.SelectedRows[0].Cells[0].RowIndex);
                     }
                     catch (Exception ex)
                     {
@@ -141,22 +141,22 @@ namespace FabricView
                 MessageBox.Show("Заполните цену", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            if (productComponents == null || productComponents.Count == 0)
+            if (productParts == null || productParts.Count == 0)
             {
                 MessageBox.Show("Заполните компоненты", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             try
             {
-                List<StuffPartsBindingModel> productComponentBM = new List<StuffPartsBindingModel>();
-                for (int i = 0; i < productComponents.Count; ++i)
+                List<StuffPartBindingModel> productPartBM = new List<StuffPartBindingModel>();
+                for (int i = 0; i < productParts.Count; ++i)
                 {
-                    productComponentBM.Add(new StuffPartsBindingModel
+                    productPartBM.Add(new StuffPartBindingModel
                     {
-                        Id = productComponents[i].Id,
-                        StuffId = productComponents[i].StuffId,
-                        PartId = productComponents[i].PartId,
-                        Amount = productComponents[i].Amount
+                        Id = productParts[i].Id,
+                        StuffId = productParts[i].StuffId,
+                        PartId = productParts[i].PartId,
+                        Count = productParts[i].Count
                     });
                 }
                 if (id.HasValue)
@@ -166,7 +166,7 @@ namespace FabricView
                         Id = id.Value,
                         StuffName = textBoxName.Text,
                         Cost = Convert.ToInt32(textBoxPrice.Text),
-                        StuffParts = productComponentBM
+                        StuffParts = productPartBM
                     });
                 }
                 else
@@ -175,7 +175,7 @@ namespace FabricView
                     {
                         StuffName = textBoxName.Text,
                         Cost = Convert.ToInt32(textBoxPrice.Text),
-                        StuffParts = productComponentBM
+                        StuffParts = productPartBM
                     });
                 }
                 MessageBox.Show("Сохранение прошло успешно", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);

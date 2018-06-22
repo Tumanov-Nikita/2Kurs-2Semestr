@@ -1,6 +1,10 @@
-﻿using FabricService.BindingModels;
-using FabricService.ViewModels;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using FabricService.ViewModels;
+using FabricService.BindingModels;
 
 namespace FabricService.Interfaces
 {
@@ -15,5 +19,6 @@ namespace FabricService.Interfaces
         void UpdElement(StorageBindingModel model);
 
         void DelElement(int id);
+
     }
 }

@@ -4,6 +4,9 @@ using FabricService.Interfaces;
 using FabricService.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace FabricService.ImplementationsList
 {
@@ -13,53 +16,43 @@ namespace FabricService.ImplementationsList
 
         public ExecuterServiceList()
         {
-            source = DataListSingleton.GetExample();
+            source = DataListSingleton.GetInstance();
         }
 
         public List<ExecuterViewModel> GetList()
         {
-            List<ExecuterViewModel> result = new List<ExecuterViewModel>();
-            for (int i = 0; i < source.Executers.Count; ++i)
-            {
-                result.Add(new ExecuterViewModel
+            List<ExecuterViewModel> result = source.Executers
+                .Select(rec => new ExecuterViewModel
                 {
-                    Id = source.Executers[i].Id,
-                    ExecuterFIO = source.Executers[i].ExecuterFIO
-                });
-            }
+                    Id = rec.Id,
+                    ExecuterFIO = rec.ExecuterFIO
+                })
+                .ToList();
             return result;
         }
 
         public ExecuterViewModel GetElement(int id)
         {
-            for (int i = 0; i < source.Executers.Count; ++i)
+            Executer element = source.Executers.FirstOrDefault(rec => rec.Id == id);
+            if (element != null)
             {
-                if (source.Executers[i].Id == id)
+                return new ExecuterViewModel
                 {
-                    return new ExecuterViewModel
-                    {
-                        Id = source.Executers[i].Id,
-                        ExecuterFIO = source.Executers[i].ExecuterFIO
-                    };
-                }
+                    Id = element.Id,
+                    ExecuterFIO = element.ExecuterFIO
+                };
             }
             throw new Exception("Элемент не найден");
         }
 
         public void AddElement(ExecuterBindingModel model)
         {
-            int maxId = 0;
-            for (int i = 0; i < source.Executers.Count; ++i)
+            Executer element = source.Executers.FirstOrDefault(rec => rec.ExecuterFIO == model.ExecuterFIO);
+            if (element != null)
             {
-                if (source.Executers[i].Id > maxId)
-                {
-                    maxId = source.Executers[i].Id;
-                }
-                if (source.Executers[i].ExecuterFIO == model.ExecuterFIO)
-                {
-                    throw new Exception("Уже есть сотрудник с таким ФИО");
-                }
+                throw new Exception("Уже есть сотрудник с таким ФИО");
             }
+            int maxId = source.Executers.Count > 0 ? source.Executers.Max(rec => rec.Id) : 0;
             source.Executers.Add(new Executer
             {
                 Id = maxId + 1,
@@ -69,37 +62,31 @@ namespace FabricService.ImplementationsList
 
         public void UpdElement(ExecuterBindingModel model)
         {
-            int index = -1;
-            for (int i = 0; i < source.Executers.Count; ++i)
+            Executer element = source.Executers.FirstOrDefault(rec =>
+                                        rec.ExecuterFIO == model.ExecuterFIO && rec.Id != model.Id);
+            if (element != null)
             {
-                if (source.Executers[i].Id == model.Id)
-                {
-                    index = i;
-                }
-                if (source.Executers[i].ExecuterFIO == model.ExecuterFIO && 
-                    source.Executers[i].Id != model.Id)
-                {
-                    throw new Exception("Уже есть сотрудник с таким ФИО");
-                }
+                throw new Exception("Уже есть сотрудник с таким ФИО");
             }
-            if (index == -1)
+            element = source.Executers.FirstOrDefault(rec => rec.Id == model.Id);
+            if (element == null)
             {
                 throw new Exception("Элемент не найден");
             }
-            source.Executers[index].ExecuterFIO = model.ExecuterFIO;
+            element.ExecuterFIO = model.ExecuterFIO;
         }
 
         public void DelElement(int id)
         {
-            for (int i = 0; i < source.Executers.Count; ++i)
+            Executer element = source.Executers.FirstOrDefault(rec => rec.Id == id);
+            if (element != null)
             {
-                if (source.Executers[i].Id == id)
-                {
-                    source.Executers.RemoveAt(i);
-                    return;
-                }
+                source.Executers.Remove(element);
             }
-            throw new Exception("Элемент не найден");
+            else
+            {
+                throw new Exception("Элемент не найден");
+            }
         }
     }
 }

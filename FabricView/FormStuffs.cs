@@ -21,7 +21,7 @@ namespace FabricView
             this.service = service;
         }
 
-        private void FormProducts_Load(object sender, EventArgs e)
+        private void FormStuffs_Load(object sender, EventArgs e)
         {
             LoadData();
         }

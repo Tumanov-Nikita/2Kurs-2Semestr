@@ -18,9 +18,9 @@ namespace FabricView
 
         private readonly IPartService serviceC;
 
-        private readonly IMainService serviceM;
+        private readonly IGeneralService serviceM;
 
-        public FormPutOnStorage(IStorageService serviceS, IPartService serviceC, IMainService serviceM)
+        public FormPutOnStorage(IStorageService serviceS, IPartService serviceC, IGeneralService serviceM)
         {
             InitializeComponent();
             this.serviceS = serviceS;
@@ -28,25 +28,25 @@ namespace FabricView
             this.serviceM = serviceM;
         }
 
-        private void FormPutOnStock_Load(object sender, EventArgs e)
+        private void FormPutOnStorage_Load(object sender, EventArgs e)
         {
             try
             {
                 List<PartViewModel> listC = serviceC.GetList();
                 if (listC != null)
                 {
-                    comboBoxComponent.DisplayMember = "PartName";
-                    comboBoxComponent.ValueMember = "Id";
-                    comboBoxComponent.DataSource = listC;
-                    comboBoxComponent.SelectedItem = null;
+                    comboBoxPart.DisplayMember = "PartName";
+                    comboBoxPart.ValueMember = "Id";
+                    comboBoxPart.DataSource = listC;
+                    comboBoxPart.SelectedItem = null;
                 }
                 List<StorageViewModel> listS = serviceS.GetList();
                 if (listS != null)
                 {
-                    comboBoxStock.DisplayMember = "StorageName";
-                    comboBoxStock.ValueMember = "Id";
-                    comboBoxStock.DataSource = listS;
-                    comboBoxStock.SelectedItem = null;
+                    comboBoxStorage.DisplayMember = "StorageName";
+                    comboBoxStorage.ValueMember = "Id";
+                    comboBoxStorage.DataSource = listS;
+                    comboBoxStorage.SelectedItem = null;
                 }
             }
             catch (Exception ex)
@@ -62,23 +62,23 @@ namespace FabricView
                 MessageBox.Show("Заполните поле Количество", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            if (comboBoxComponent.SelectedValue == null)
+            if (comboBoxPart.SelectedValue == null)
             {
                 MessageBox.Show("Выберите компонент", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            if (comboBoxStock.SelectedValue == null)
+            if (comboBoxStorage.SelectedValue == null)
             {
                 MessageBox.Show("Выберите склад", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             try
             {
-                serviceM.PutPartOnStorage(new StoragePartsBindingModel
+                serviceM.PutPartOnStorage(new StoragePartBindingModel
                 {
-                    PartId = Convert.ToInt32(comboBoxComponent.SelectedValue),
-                    StorageId = Convert.ToInt32(comboBoxStock.SelectedValue),
-                    Amount = Convert.ToInt32(textBoxCount.Text)
+                    PartId = Convert.ToInt32(comboBoxPart.SelectedValue),
+                    StorageId = Convert.ToInt32(comboBoxStorage.SelectedValue),
+                    Count = Convert.ToInt32(textBoxCount.Text)
                 });
                 MessageBox.Show("Сохранение прошло успешно", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 DialogResult = DialogResult.OK;
