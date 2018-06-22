@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2BC53217-7680-45D4-970E-944996E6AB2E}</ProjectGuid>
+    <ProjectGuid>{C41B994A-42F3-4D68-BB17-F1A16DAC3DFB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FabricService</RootNamespace>
     <AssemblyName>FabricService</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -38,6 +38,46 @@
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13\lib\itextsharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Word.15.0.4797.1003\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.802.134-rc\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.802.134-rc\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.802.134-rc\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.802.134-rc\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Report.Viewer.11.0.0.0\lib\net\Microsoft.ReportViewer.WebForms.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.802.134-rc\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -49,47 +89,101 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FabricDbContext.cs" />
+    <Compile Include="BindingModels\StuffBindingModel.cs" />
+    <Compile Include="BindingModels\StuffPartBindingModel.cs" />
+    <Compile Include="BindingModels\ExecuterBindingModel.cs" />
+    <Compile Include="BindingModels\ContractBindingModel.cs" />
     <Compile Include="BindingModels\CustomerBindingModel.cs" />
     <Compile Include="BindingModels\PartBindingModel.cs" />
-    <Compile Include="BindingModels\ExecuterBindingModel.cs" />
-    <Compile Include="BindingModels\BookingBindingModel.cs" />
-    <Compile Include="BindingModels\StuffBindingModel.cs" />
-    <Compile Include="BindingModels\StuffPartsBindingModel.cs" />
+    <Compile Include="BindingModels\ReportBindingModel.cs" />
     <Compile Include="BindingModels\StorageBindingModel.cs" />
-    <Compile Include="BindingModels\StoragePartsBindingModel.cs" />
-    <Compile Include="DataList.cs" />
-    <Compile Include="FabricDbContext.cs" />
-    <Compile Include="ImplementationsList\CustomerServiceList.cs" />
-    <Compile Include="ImplementationsList\PartServiceList.cs" />
-    <Compile Include="ImplementationsList\ExecuterServiceList.cs" />
-    <Compile Include="ImplementationsList\MainServiceList.cs" />
+    <Compile Include="BindingModels\StoragePartBindingModel.cs" />
+    <Compile Include="DataListSingleton.cs" />
+    <Compile Include="ImplementationsDB\StuffServiceDB.cs" />
+    <Compile Include="ImplementationsDB\ExecuterServiceDB.cs" />
+    <Compile Include="ImplementationsDB\CustomerServiceDB.cs" />
+    <Compile Include="ImplementationsDB\GeneralServiceDB.cs" />
+    <Compile Include="ImplementationsDB\PartServiceDB.cs" />
+    <Compile Include="ImplementationsDB\ReportServiceBD.cs" />
+    <Compile Include="ImplementationsDB\StorageServiceDB.cs" />
     <Compile Include="ImplementationsList\StuffServiceList.cs" />
+    <Compile Include="ImplementationsList\ExecuterServiceList.cs" />
+    <Compile Include="ImplementationsList\CustomerServiceList.cs" />
+    <Compile Include="ImplementationsList\GeneralServiceList.cs" />
+    <Compile Include="ImplementationsList\PartServiceList.cs" />
     <Compile Include="ImplementationsList\StorageServiceList.cs" />
-    <Compile Include="Interfaces\ICustomerService.cs" />
-    <Compile Include="Interfaces\IPartService.cs" />
-    <Compile Include="Interfaces\IExecuterService.cs" />
-    <Compile Include="Interfaces\IMainService.cs" />
     <Compile Include="Interfaces\IStuffService.cs" />
+    <Compile Include="Interfaces\IExecuterService.cs" />
+    <Compile Include="Interfaces\ICustomerService.cs" />
+    <Compile Include="Interfaces\IGeneralService.cs" />
+    <Compile Include="Interfaces\IPartService.cs" />
+    <Compile Include="Interfaces\IReportService.cs" />
     <Compile Include="Interfaces\IStorageService.cs" />
+    <Compile Include="Migrations\201806221850414_First-migration.cs" />
+    <Compile Include="Migrations\201806221850414_First-migration.Designer.cs">
+      <DependentUpon>201806221850414_First-migration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="ViewModels\ArticlePartViewModel.cs" />
+    <Compile Include="ViewModels\ArticleViewModel.cs" />
+    <Compile Include="ViewModels\BuilderViewModel.cs" />
+    <Compile Include="ViewModels\ContractViewModel.cs" />
+    <Compile Include="ViewModels\CustomerContractsModel.cs" />
     <Compile Include="ViewModels\CustomerViewModel.cs" />
     <Compile Include="ViewModels\PartViewModel.cs" />
-    <Compile Include="ViewModels\ExecuterViewModel.cs" />
-    <Compile Include="ViewModels\BookingViewModel.cs" />
-    <Compile Include="ViewModels\StuffPartsViewModel.cs" />
-    <Compile Include="ViewModels\StuffViewModel.cs" />
-    <Compile Include="ViewModels\StoragePartsViewModel.cs" />
+    <Compile Include="ViewModels\StoragePartViewModel.cs" />
+    <Compile Include="ViewModels\StoragesLoadViewModel.cs" />
     <Compile Include="ViewModels\StorageViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FabricModel\FabricModel.csproj">
-      <Project>{5edcfafa-0f3a-4810-8489-4d221a86ad1e}</Project>
+    <ProjectReference Include="..\Fabric\FabricModel.csproj">
+      <Project>{4497f6c4-6737-43eb-941a-b9f636af6f3f}</Project>
       <Name>FabricModel</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="Resources\TIMCYR.TTF" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201806221850414_First-migration.resx">
+      <DependentUpon>201806221850414_First-migration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
 </Project>

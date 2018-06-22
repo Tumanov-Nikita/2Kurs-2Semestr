@@ -25,7 +25,7 @@ namespace FabricView
             this.service = service;
         }
 
-        private void FormImplementer_Load(object sender, EventArgs e)
+        private void FormExecuter_Load(object sender, EventArgs e)
         {
             if (id.HasValue)
             {

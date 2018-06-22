@@ -24,18 +24,18 @@ namespace FabricView
 
         private readonly IExecuterService serviceI;
 
-        private readonly IMainService serviceM;
+        private readonly IGeneralService serviceM;
 
         private int? id;
 
-        public FormTakeBookingInWork(IExecuterService serviceI, IMainService serviceM)
+        public FormTakeBookingInWork(IExecuterService serviceI, IGeneralService serviceM)
         {
             InitializeComponent();
             this.serviceI = serviceI;
             this.serviceM = serviceM;
         }
 
-        private void FormTakeOrderInWork_Load(object sender, EventArgs e)
+        private void FormTakeBookingInWork_Load(object sender, EventArgs e)
         {
             try
             {
@@ -47,10 +47,10 @@ namespace FabricView
                 List<ExecuterViewModel> listI = serviceI.GetList();
                 if (listI != null)
                 {
-                    comboBoxImplementer.DisplayMember = "ExecuterFIO";
-                    comboBoxImplementer.ValueMember = "Id";
-                    comboBoxImplementer.DataSource = listI;
-                    comboBoxImplementer.SelectedItem = null;
+                    comboBoxExecuter.DisplayMember = "ExecuterFIO";
+                    comboBoxExecuter.ValueMember = "Id";
+                    comboBoxExecuter.DataSource = listI;
+                    comboBoxExecuter.SelectedItem = null;
                 }
             }
             catch (Exception ex)
@@ -61,7 +61,7 @@ namespace FabricView
 
         private void buttonSave_Click(object sender, EventArgs e)
         {
-            if (comboBoxImplementer.SelectedValue == null)
+            if (comboBoxExecuter.SelectedValue == null)
             {
                 MessageBox.Show("Выберите исполнителя", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -71,7 +71,7 @@ namespace FabricView
                 serviceM.TakeBookingInWork(new BookingBindingModel
                 {
                     Id = id.Value,
-                    ExecuterId = Convert.ToInt32(comboBoxImplementer.SelectedValue)
+                    ExecuterId = Convert.ToInt32(comboBoxExecuter.SelectedValue)
                 });
                 MessageBox.Show("Сохранение прошло успешно", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 DialogResult = DialogResult.OK;

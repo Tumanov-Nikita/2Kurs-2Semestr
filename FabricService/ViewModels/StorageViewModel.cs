@@ -1,13 +1,15 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace FabricService.ViewModels
 {
     public class StorageViewModel
     {
         public int Id { get; set; }
-
         public string StorageName { get; set; }
-
-        public List<StoragePartsViewModel> StorageParts { get; set; }
+        public List<StoragePartViewModel> StorageParts { get; set; }
     }
 }

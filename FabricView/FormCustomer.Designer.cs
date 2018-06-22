@@ -52,7 +52,7 @@
             // 
             // buttonSave
             // 
-            this.buttonSave.Location = new System.Drawing.Point(116, 32);
+            this.buttonSave.Location = new System.Drawing.Point(55, 32);
             this.buttonSave.Name = "buttonSave";
             this.buttonSave.Size = new System.Drawing.Size(75, 23);
             this.buttonSave.TabIndex = 2;
@@ -70,7 +70,7 @@
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
-            // FormClient
+            // FormCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -79,10 +79,10 @@
             this.Controls.Add(this.buttonSave);
             this.Controls.Add(this.textBoxFIO);
             this.Controls.Add(this.labelFIO);
-            this.Name = "FormClient";
+            this.Name = "FormCustomer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Клиент";
-            this.Load += new System.EventHandler(this.FormClient_Load);
+            this.Text = "Заказчик";
+            this.Load += new System.EventHandler(this.FormCustomer_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -94,5 +94,6 @@
         private System.Windows.Forms.TextBox textBoxFIO;
         private System.Windows.Forms.Button buttonSave;
         private System.Windows.Forms.Button buttonCancel;
+
     }
 }
