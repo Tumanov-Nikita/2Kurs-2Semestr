@@ -1,9 +1,9 @@
 ﻿namespace FabricService.ViewModels
 {
-    public class BuilderViewModel
+    public class ExecuterViewModel
     {
         public int Id { get; set; }
 
-        public string BuilderFIO { get; set; }
+        public string ExecuterFIO { get; set; }
     }
 }

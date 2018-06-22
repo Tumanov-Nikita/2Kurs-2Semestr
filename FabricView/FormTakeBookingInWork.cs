@@ -22,13 +22,13 @@ namespace FabricView
 
         public int Id { set { id = value; } }
 
-        private readonly IBuilderService serviceI;
+        private readonly IExecuterService serviceI;
 
         private readonly IMainService serviceM;
 
         private int? id;
 
-        public FormTakeBookingInWork(IBuilderService serviceI, IMainService serviceM)
+        public FormTakeBookingInWork(IExecuterService serviceI, IMainService serviceM)
         {
             InitializeComponent();
             this.serviceI = serviceI;
@@ -44,10 +44,10 @@ namespace FabricView
                     MessageBox.Show("Не указан заказ", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     Close();
                 }
-                List<BuilderViewModel> listI = serviceI.GetList();
+                List<ExecuterViewModel> listI = serviceI.GetList();
                 if (listI != null)
                 {
-                    comboBoxImplementer.DisplayMember = "BuilderFIO";
+                    comboBoxImplementer.DisplayMember = "ExecuterFIO";
                     comboBoxImplementer.ValueMember = "Id";
                     comboBoxImplementer.DataSource = listI;
                     comboBoxImplementer.SelectedItem = null;
@@ -71,7 +71,7 @@ namespace FabricView
                 serviceM.TakeBookingInWork(new BookingBindingModel
                 {
                     Id = id.Value,
-                    BuilderId = Convert.ToInt32(comboBoxImplementer.SelectedValue)
+                    ExecuterId = Convert.ToInt32(comboBoxImplementer.SelectedValue)
                 });
                 MessageBox.Show("Сохранение прошло успешно", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 DialogResult = DialogResult.OK;

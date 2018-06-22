@@ -13,7 +13,7 @@ namespace FabricModel
 
         public int StuffId { get; set; }
 
-        public int? BuilderId { get; set; }
+        public int? ExecuterId { get; set; }
 
         public int Count { get; set; }
 
@@ -23,6 +23,13 @@ namespace FabricModel
 
         public DateTime DateCreate { get; set; }
 
-        public DateTime? DateBuild { get; set; }
+        public DateTime? DateExecute { get; set; }
+
+        public virtual Customer Customer { get; set; }
+
+        public virtual Stuff Stuff { get; set; }
+
+        public virtual Executer Executer { get; set; }
+
     }
 }

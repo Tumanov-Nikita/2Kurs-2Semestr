@@ -3,10 +3,10 @@
     /// <summary>
     /// Исполнитель, выполняющий заказы клиентов
     /// </summary>
-    public class Builder
+    public class Executer
     {
         public int Id { get; set; }
 
-        public string BuilderFIO { get; set; }
+        public string ExecuterFIO { get; set; }
     }
 }

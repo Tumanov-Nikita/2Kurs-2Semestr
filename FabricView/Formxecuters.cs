@@ -19,9 +19,9 @@ namespace FabricView
         [Dependency]
         public new IUnityContainer Container { get; set; }
 
-        private readonly IBuilderService service;
+        private readonly IExecuterService service;
 
-        public Formxecuters(IBuilderService service)
+        public Formxecuters(IExecuterService service)
         {
             InitializeComponent();
             this.service = service;
@@ -36,7 +36,7 @@ namespace FabricView
         {
             try
             {
-                List<BuilderViewModel> list = service.GetList();
+                List<ExecuterViewModel> list = service.GetList();
                 if (list != null)
                 {
                     dataGridView.DataSource = list;
@@ -52,7 +52,7 @@ namespace FabricView
 
         private void buttonAdd_Click(object sender, EventArgs e)
         {
-            var form = Container.Resolve<FormBuilder>();
+            var form = Container.Resolve<FormExecuter>();
             if (form.ShowDialog() == DialogResult.OK)
             {
                 LoadData();
@@ -63,7 +63,7 @@ namespace FabricView
         {
             if (dataGridView.SelectedRows.Count == 1)
             {
-                var form = Container.Resolve<FormBuilder>();
+                var form = Container.Resolve<FormExecuter>();
                 form.Id = Convert.ToInt32(dataGridView.SelectedRows[0].Cells[0].Value);
                 if (form.ShowDialog() == DialogResult.OK)
                 {

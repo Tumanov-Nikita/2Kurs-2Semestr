@@ -4,15 +4,15 @@ using System.Collections.Generic;
 
 namespace FabricService.Interfaces
 {
-    public interface IBuilderService
+    public interface IExecuterService
     {
-        List<BuilderViewModel> GetList();
+        List<ExecuterViewModel> GetList();
 
-        BuilderViewModel GetElement(int id);
+        ExecuterViewModel GetElement(int id);
 
-        void AddElement(BuilderBindingModel model);
+        void AddElement(ExecuterBindingModel model);
 
-        void UpdElement(BuilderBindingModel model);
+        void UpdElement(ExecuterBindingModel model);
 
         void DelElement(int id);
     }

@@ -40,13 +40,13 @@ namespace FabricService.ImplementationsList
                     }
                 }
                 string implementerFIO = string.Empty;
-                if(source.Bookings[i].BuilderId.HasValue)
+                if(source.Bookings[i].ExecuterId.HasValue)
                 {
-                    for (int j = 0; j < source.Builders.Count; ++j)
+                    for (int j = 0; j < source.Executers.Count; ++j)
                     {
-                        if (source.Builders[j].Id == source.Bookings[i].BuilderId.Value)
+                        if (source.Executers[j].Id == source.Bookings[i].ExecuterId.Value)
                         {
-                            implementerFIO = source.Builders[j].BuilderFIO;
+                            implementerFIO = source.Executers[j].ExecuterFIO;
                             break;
                         }
                     }
@@ -58,12 +58,12 @@ namespace FabricService.ImplementationsList
                     CustomerFIO = clientFIO,
                     StuffId = source.Bookings[i].StuffId,
                     StuffName = productName,
-                    BuilderId = source.Bookings[i].BuilderId,
-                    BuilderName = implementerFIO,
-                    Count = source.Bookings[i].Count,
+                    ExecuterId = source.Bookings[i].ExecuterId,
+                    ExecuterName = implementerFIO,
+                    Amount = source.Bookings[i].Count,
                     Sum = source.Bookings[i].Sum,
                     DateCreate = source.Bookings[i].DateCreate.ToLongDateString(),
-                    DateExecute = source.Bookings[i].DateBuild?.ToLongDateString(),
+                    DateExecute = source.Bookings[i].DateExecute?.ToLongDateString(),
                     Status = source.Bookings[i].Status.ToString()
                 });
             }
@@ -86,7 +86,7 @@ namespace FabricService.ImplementationsList
                 CustomerId = model.CustomerId,
                 StuffId = model.StuffId,
                 DateCreate = DateTime.Now,
-                Count = model.Count,
+                Count = model.Amount,
                 Sum = model.Sum,
                 Status = BookingStatus.Принят
             });
@@ -117,17 +117,17 @@ namespace FabricService.ImplementationsList
                     {
                         if(source.StorageParts[j].PartId == source.StuffParts[i].PartId)
                         {
-                            countOnStocks += source.StorageParts[j].Count;
+                            countOnStocks += source.StorageParts[j].Amount;
                         }
                     }
-                    if(countOnStocks < source.StuffParts[i].Count * source.Bookings[index].Count)
+                    if(countOnStocks < source.StuffParts[i].Amount * source.Bookings[index].Count)
                     {
                         for (int j = 0; j < source.Parts.Count; ++j)
                         {
                             if (source.Parts[j].Id == source.StuffParts[i].PartId)
                             {
                                 throw new Exception("Не достаточно компонента " + source.Parts[j].PartName + 
-                                    " требуется " + source.StuffParts[i].Count + ", в наличии " + countOnStocks);
+                                    " требуется " + source.StuffParts[i].Amount + ", в наличии " + countOnStocks);
                             }
                         }
                     }
@@ -138,28 +138,28 @@ namespace FabricService.ImplementationsList
             {
                 if (source.StuffParts[i].StuffId == source.Bookings[index].StuffId)
                 {
-                    int countOnStocks = source.StuffParts[i].Count * source.Bookings[index].Count;
+                    int countOnStocks = source.StuffParts[i].Amount * source.Bookings[index].Count;
                     for (int j = 0; j < source.StorageParts.Count; ++j)
                     {
                         if (source.StorageParts[j].PartId == source.StuffParts[i].PartId)
                         {
                             // компонентов на одном слкаде может не хватать
-                            if (source.StorageParts[j].Count >= countOnStocks)
+                            if (source.StorageParts[j].Amount >= countOnStocks)
                             {
-                                source.StorageParts[j].Count -= countOnStocks;
+                                source.StorageParts[j].Amount -= countOnStocks;
                                 break;
                             }
                             else
                             {
-                                countOnStocks -= source.StorageParts[j].Count;
-                                source.StorageParts[j].Count = 0;
+                                countOnStocks -= source.StorageParts[j].Amount;
+                                source.StorageParts[j].Amount = 0;
                             }
                         }
                     }
                 }
             }
-            source.Bookings[index].BuilderId = model.BuilderId;
-            source.Bookings[index].DateBuild = DateTime.Now;
+            source.Bookings[index].ExecuterId = model.ExecuterId;
+            source.Bookings[index].DateExecute = DateTime.Now;
             source.Bookings[index].Status = BookingStatus.Выполняется;
         }
 
@@ -207,7 +207,7 @@ namespace FabricService.ImplementationsList
                 if(source.StorageParts[i].StorageId == model.StorageId && 
                     source.StorageParts[i].PartId == model.PartId)
                 {
-                    source.StorageParts[i].Count += model.Count;
+                    source.StorageParts[i].Amount += model.Amount;
                     return;
                 }
                 if (source.StorageParts[i].Id > maxId)
@@ -220,7 +220,7 @@ namespace FabricService.ImplementationsList
                 Id = ++maxId,
                 StorageId = model.StorageId,
                 PartId = model.PartId,
-                Count = model.Count
+                Amount = model.Amount
             });
         }
     }

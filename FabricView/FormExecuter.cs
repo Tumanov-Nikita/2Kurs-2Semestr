@@ -8,18 +8,18 @@ using Unity.Attributes;
 
 namespace FabricView
 {
-    public partial class FormBuilder : Form
+    public partial class FormExecuter : Form
     {
         [Dependency]
         public new IUnityContainer Container { get; set; }
 
         public int Id { set { id = value; } }
 
-        private readonly IBuilderService service;
+        private readonly IExecuterService service;
 
         private int? id;
 
-        public FormBuilder(IBuilderService service)
+        public FormExecuter(IExecuterService service)
         {
             InitializeComponent();
             this.service = service;
@@ -31,10 +31,10 @@ namespace FabricView
             {
                 try
                 {
-                    BuilderViewModel view = service.GetElement(id.Value);
+                    ExecuterViewModel view = service.GetElement(id.Value);
                     if (view != null)
                     {
-                        textBoxFIO.Text = view.BuilderFIO;
+                        textBoxFIO.Text = view.ExecuterFIO;
                     }
                 }
                 catch (Exception ex)
@@ -55,17 +55,17 @@ namespace FabricView
             {
                 if (id.HasValue)
                 {
-                    service.UpdElement(new BuilderBindingModel
+                    service.UpdElement(new ExecuterBindingModel
                     {
                         Id = id.Value,
-                        BuilderFIO = textBoxFIO.Text
+                        ExecuterFIO = textBoxFIO.Text
                     });
                 }
                 else
                 {
-                    service.AddElement(new BuilderBindingModel
+                    service.AddElement(new ExecuterBindingModel
                     {
-                        BuilderFIO = textBoxFIO.Text
+                        ExecuterFIO = textBoxFIO.Text
                     });
                 }
                 MessageBox.Show("Сохранение прошло успешно", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);

@@ -42,7 +42,7 @@ namespace FabricService.ImplementationsList
                             StuffId = source.StuffParts[j].StuffId,
                             PartId = source.StuffParts[j].PartId,
                             PartName = componentName,
-                            Count = source.StuffParts[j].Count
+                            Amount = source.StuffParts[j].Amount
                         });
                     }
                 }
@@ -82,7 +82,7 @@ namespace FabricService.ImplementationsList
                             StuffId = source.StuffParts[j].StuffId,
                             PartId = source.StuffParts[j].PartId,
                             PartName = componentName,
-                            Count = source.StuffParts[j].Count
+                            Amount = source.StuffParts[j].Amount
                         });
                     }
                 }
@@ -138,8 +138,8 @@ namespace FabricService.ImplementationsList
                     if(model.StuffParts[i].PartId ==
                         model.StuffParts[j].PartId)
                     {
-                        model.StuffParts[i].Count +=
-                            model.StuffParts[j].Count;
+                        model.StuffParts[i].Amount +=
+                            model.StuffParts[j].Amount;
                         model.StuffParts.RemoveAt(j--);
                     }
                 }
@@ -152,7 +152,7 @@ namespace FabricService.ImplementationsList
                     Id = ++maxPCId,
                     StuffId = maxId + 1,
                     PartId = model.StuffParts[i].PartId,
-                    Count = model.StuffParts[i].Count
+                    Amount = model.StuffParts[i].Amount
                 });
             }
         }
@@ -197,7 +197,7 @@ namespace FabricService.ImplementationsList
                         // если встретили, то изменяем количество
                         if (source.StuffParts[i].Id == model.StuffParts[j].Id)
                         {
-                            source.StuffParts[i].Count = model.StuffParts[j].Count;
+                            source.StuffParts[i].Amount = model.StuffParts[j].Amount;
                             flag = false;
                             break;
                         }
@@ -220,7 +220,7 @@ namespace FabricService.ImplementationsList
                         if (source.StuffParts[j].StuffId == model.Id &&
                             source.StuffParts[j].PartId == model.StuffParts[i].PartId)
                         {
-                            source.StuffParts[j].Count += model.StuffParts[i].Count;
+                            source.StuffParts[j].Amount += model.StuffParts[i].Amount;
                             model.StuffParts[i].Id = source.StuffParts[j].Id;
                             break;
                         }
@@ -233,7 +233,7 @@ namespace FabricService.ImplementationsList
                             Id = ++maxPCId,
                             StuffId = model.Id,
                             PartId = model.StuffParts[i].PartId,
-                            Count = model.StuffParts[i].Count
+                            Amount = model.StuffParts[i].Amount
                         });
                     }
                 }

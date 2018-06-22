@@ -106,7 +106,7 @@ namespace FabricView
                 {
                     CustomerId = Convert.ToInt32(comboBoxClient.SelectedValue),
                     StuffId = Convert.ToInt32(comboBoxProduct.SelectedValue),
-                    Count = Convert.ToInt32(textBoxCount.Text),
+                    Amount = Convert.ToInt32(textBoxCount.Text),
                     Sum = Convert.ToInt32(textBoxSum.Text)
                 });
                 MessageBox.Show("Сохранение прошло успешно", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
