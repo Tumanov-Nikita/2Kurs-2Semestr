@@ -1,197 +1,203 @@
 ﻿using FabricService.BindingModels;
-using FabricService.Interfaces;
 using FabricService.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.Net.Http;
+using System.Threading.Tasks;
 using System.Windows.Forms;
-using Unity;
-using Unity.Attributes;
 
 namespace FabricView
 {
-    public partial class FormStuff : Form
-    {
-        [Dependency]
-        public new IUnityContainer Container { get; set; }
+	public partial class FormStuff : Form
+	{
+		public int Id { set { id = value; } }
 
-        public int Id { set { id = value; } }
+		private int? id;
 
-        private readonly IStuffService service;
+		private List<StuffPartViewModel> StuffParts;
 
-        private int? id;
+		public FormStuff()
+		{
+			InitializeComponent();
+		}
 
-        private List<StuffPartViewModel> productParts;
+		private void FormStuff_Load(object sender, EventArgs e)
+		{
+			if (id.HasValue)
+			{
+				try
+				{
+					var response = APIClient.GetRequest("api/Stuff/Get/" + id.Value);
+					if (response.Result.IsSuccessStatusCode)
+					{
+						var Stuff = APIClient.GetElement<StuffViewModel>(response);
+						textBoxName.Text = Stuff.StuffName;
+						textBoxPrice.Text = Stuff.Cost.ToString();
+						StuffParts = Stuff.StuffParts;
+						LoadData();
+					}
+					else
+					{
+						throw new Exception(APIClient.GetError(response));
+					}
+				}
+				catch (Exception ex)
+				{
+					MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				}
+			}
+			else
+			{
+				StuffParts = new List<StuffPartViewModel>();
+			}
+		}
 
-        public FormStuff(IStuffService service)
-        {
-            InitializeComponent();
-            this.service = service;
-        }
+		private void LoadData()
+		{
+			try
+			{
+				if (StuffParts != null)
+				{
+					dataGridView.DataSource = null;
+					dataGridView.DataSource = StuffParts;
+					dataGridView.Columns[0].Visible = false;
+					dataGridView.Columns[1].Visible = false;
+					dataGridView.Columns[2].Visible = false;
+					dataGridView.Columns[3].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+				}
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			}
+		}
 
-        private void FormStuff_Load(object sender, EventArgs e)
-        {
-            if (id.HasValue)
-            {
-                try
-                {
-                    StuffViewModel view = service.GetElement(id.Value);
-                    if (view != null)
-                    {
-                        textBoxName.Text = view.StuffName;
-                        textBoxPrice.Text = view.Cost.ToString();
-                        productParts = view.StuffParts;
-                        LoadData();
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-            else
-            {
-                productParts = new List<StuffPartViewModel>();
-            }
-        }
+		private void buttonAdd_Click(object sender, EventArgs e)
+		{
+			var form = new FormStuffPart();
+			if (form.ShowDialog() == DialogResult.OK)
+			{
+				if (form.Model != null)
+				{
+					if (id.HasValue)
+					{
+						form.Model.StuffId = id.Value;
+					}
+					StuffParts.Add(form.Model);
+				}
+				LoadData();
+			}
+		}
 
-        private void LoadData()
-        {
-            try
-            {
-                if (productParts != null)
-                {
-                    dataGridView.DataSource = null;
-                    dataGridView.DataSource = productParts;
-                    dataGridView.Columns[0].Visible = false;
-                    dataGridView.Columns[1].Visible = false;
-                    dataGridView.Columns[2].Visible = false;
-                    dataGridView.Columns[3].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
+		private void buttonUpd_Click(object sender, EventArgs e)
+		{
+			if (dataGridView.SelectedRows.Count == 1)
+			{
+				var form = new FormStuffPart();
+				form.Model = StuffParts[dataGridView.SelectedRows[0].Cells[0].RowIndex];
+				if (form.ShowDialog() == DialogResult.OK)
+				{
+					StuffParts[dataGridView.SelectedRows[0].Cells[0].RowIndex] = form.Model;
+					LoadData();
+				}
+			}
+		}
 
-        private void buttonAdd_Click(object sender, EventArgs e)
-        {
-            var form = Container.Resolve<FormStuffPart>();
-            if (form.ShowDialog() == DialogResult.OK)
-            {
-                if (form.Model != null)
-                {
-                    if (id.HasValue)
-                    {
-                        form.Model.StuffId = id.Value;
-                    }
-                    productParts.Add(form.Model);
-                }
-                LoadData();
-            }
-        }
+		private void buttonDel_Click(object sender, EventArgs e)
+		{
+			if (dataGridView.SelectedRows.Count == 1)
+			{
+				if (MessageBox.Show("Удалить запись", "Вопрос", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+				{
+					try
+					{
+						StuffParts.RemoveAt(dataGridView.SelectedRows[0].Cells[0].RowIndex);
+					}
+					catch (Exception ex)
+					{
+						MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+					}
+					LoadData();
+				}
+			}
+		}
 
-        private void buttonUpd_Click(object sender, EventArgs e)
-        {
-            if (dataGridView.SelectedRows.Count == 1)
-            {
-                var form = Container.Resolve<FormStuffPart>();
-                form.Model = productParts[dataGridView.SelectedRows[0].Cells[0].RowIndex];
-                if (form.ShowDialog() == DialogResult.OK)
-                {
-                    productParts[dataGridView.SelectedRows[0].Cells[0].RowIndex] = form.Model;
-                    LoadData();
-                }
-            }
-        }
+		private void buttonRef_Click(object sender, EventArgs e)
+		{
+			LoadData();
+		}
 
-        private void buttonDel_Click(object sender, EventArgs e)
-        {
-            if (dataGridView.SelectedRows.Count == 1)
-            {
-                if (MessageBox.Show("Удалить запись", "Вопрос", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-                {
-                    try
-                    {
-                        productParts.RemoveAt(dataGridView.SelectedRows[0].Cells[0].RowIndex);
-                    }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                    LoadData();
-                }
-            }
-        }
+		private void buttonSave_Click(object sender, EventArgs e)
+		{
+			if (string.IsNullOrEmpty(textBoxName.Text))
+			{
+				MessageBox.Show("Заполните название", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				return;
+			}
+			if (string.IsNullOrEmpty(textBoxPrice.Text))
+			{
+				MessageBox.Show("Заполните цену", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				return;
+			}
+			if (StuffParts == null || StuffParts.Count == 0)
+			{
+				MessageBox.Show("Заполните компоненты", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				return;
+			}
+			try
+			{
+				List<StuffPartBindingModel> StuffPartBM = new List<StuffPartBindingModel>();
+				for (int i = 0; i < StuffParts.Count; ++i)
+				{
+					StuffPartBM.Add(new StuffPartBindingModel
+					{
+						Id = StuffParts[i].Id,
+						StuffId = StuffParts[i].StuffId,
+						PartId = StuffParts[i].PartId,
+						Count = StuffParts[i].Count
+					});
+				}
+				Task<HttpResponseMessage> response;
+				if (id.HasValue)
+				{
+					response = APIClient.PostRequest("api/Stuff/UpdElement", new StuffBindingModel
+					{
+						Id = id.Value,
+						StuffName = textBoxName.Text,
+						Cost = Convert.ToInt32(textBoxPrice.Text),
+						StuffParts = StuffPartBM
+					});
+				}
+				else
+				{
+					response = APIClient.PostRequest("api/Stuff/AddElement", new StuffBindingModel
+					{
+						StuffName = textBoxName.Text,
+						Cost = Convert.ToInt32(textBoxPrice.Text),
+						StuffParts = StuffPartBM
+					});
+				}
+				if (response.Result.IsSuccessStatusCode)
+				{
+					MessageBox.Show("Сохранение прошло успешно", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+					DialogResult = DialogResult.OK;
+					Close();
+				}
+				else
+				{
+					throw new Exception(APIClient.GetError(response));
+				}
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			}
+		}
 
-        private void buttonRef_Click(object sender, EventArgs e)
-        {
-            LoadData();
-        }
-
-        private void buttonSave_Click(object sender, EventArgs e)
-        {
-            if (string.IsNullOrEmpty(textBoxName.Text))
-            {
-                MessageBox.Show("Заполните название", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            if (string.IsNullOrEmpty(textBoxPrice.Text))
-            {
-                MessageBox.Show("Заполните цену", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            if (productParts == null || productParts.Count == 0)
-            {
-                MessageBox.Show("Заполните компоненты", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            try
-            {
-                List<StuffPartBindingModel> productPartBM = new List<StuffPartBindingModel>();
-                for (int i = 0; i < productParts.Count; ++i)
-                {
-                    productPartBM.Add(new StuffPartBindingModel
-                    {
-                        Id = productParts[i].Id,
-                        StuffId = productParts[i].StuffId,
-                        PartId = productParts[i].PartId,
-                        Count = productParts[i].Count
-                    });
-                }
-                if (id.HasValue)
-                {
-                    service.UpdElement(new StuffBindingModel
-                    {
-                        Id = id.Value,
-                        StuffName = textBoxName.Text,
-                        Cost = Convert.ToInt32(textBoxPrice.Text),
-                        StuffParts = productPartBM
-                    });
-                }
-                else
-                {
-                    service.AddElement(new StuffBindingModel
-                    {
-                        StuffName = textBoxName.Text,
-                        Cost = Convert.ToInt32(textBoxPrice.Text),
-                        StuffParts = productPartBM
-                    });
-                }
-                MessageBox.Show("Сохранение прошло успешно", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                DialogResult = DialogResult.OK;
-                Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private void buttonCancel_Click(object sender, EventArgs e)
-        {
-            DialogResult = DialogResult.Cancel;
-            Close();
-        }
-    }
+		private void buttonCancel_Click(object sender, EventArgs e)
+		{
+			DialogResult = DialogResult.Cancel;
+			Close();
+		}
+	}
 }

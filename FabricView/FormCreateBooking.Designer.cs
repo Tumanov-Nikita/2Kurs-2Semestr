@@ -148,7 +148,7 @@
             this.Controls.Add(this.labelStuff);
             this.Name = "FormCreateBooking";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Заказ на производство";
+            this.Text = "Контракт на производство";
             this.Load += new System.EventHandler(this.FormCreateBooking_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

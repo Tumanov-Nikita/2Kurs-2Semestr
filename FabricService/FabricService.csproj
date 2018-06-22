@@ -81,6 +81,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -93,7 +94,7 @@
     <Compile Include="BindingModels\StuffBindingModel.cs" />
     <Compile Include="BindingModels\StuffPartBindingModel.cs" />
     <Compile Include="BindingModels\ExecuterBindingModel.cs" />
-    <Compile Include="BindingModels\ContractBindingModel.cs" />
+    <Compile Include="BindingModels\BookingBindingModel.cs" />
     <Compile Include="BindingModels\CustomerBindingModel.cs" />
     <Compile Include="BindingModels\PartBindingModel.cs" />
     <Compile Include="BindingModels\ReportBindingModel.cs" />
@@ -120,9 +121,9 @@
     <Compile Include="Interfaces\IPartService.cs" />
     <Compile Include="Interfaces\IReportService.cs" />
     <Compile Include="Interfaces\IStorageService.cs" />
-    <Compile Include="Migrations\201806221850414_First-migration.cs" />
-    <Compile Include="Migrations\201806221850414_First-migration.Designer.cs">
-      <DependentUpon>201806221850414_First-migration.cs</DependentUpon>
+    <Compile Include="Migrations\201806221907204_First-Migration.cs" />
+    <Compile Include="Migrations\201806221907204_First-Migration.Designer.cs">
+      <DependentUpon>201806221907204_First-Migration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -132,10 +133,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
-    <Compile Include="ViewModels\ArticlePartViewModel.cs" />
-    <Compile Include="ViewModels\ArticleViewModel.cs" />
-    <Compile Include="ViewModels\BuilderViewModel.cs" />
-    <Compile Include="ViewModels\ContractViewModel.cs" />
+    <Compile Include="ViewModels\StuffPartViewModel.cs" />
+    <Compile Include="ViewModels\StuffViewModel.cs" />
+    <Compile Include="ViewModels\ExecuterViewModel.cs" />
+    <Compile Include="ViewModels\BookingViewModel.cs" />
     <Compile Include="ViewModels\CustomerContractsModel.cs" />
     <Compile Include="ViewModels\CustomerViewModel.cs" />
     <Compile Include="ViewModels\PartViewModel.cs" />
@@ -155,8 +156,8 @@
     <None Include="Resources\TIMCYR.TTF" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201806221850414_First-migration.resx">
-      <DependentUpon>201806221850414_First-migration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201806221907204_First-Migration.resx">
+      <DependentUpon>201806221907204_First-Migration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

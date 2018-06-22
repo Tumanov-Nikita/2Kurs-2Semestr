@@ -177,7 +177,7 @@
             this.Controls.Add(this.labelName);
             this.Name = "FormStuff";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Запчасть";
+            this.Text = "Деталь";
             this.Load += new System.EventHandler(this.FormStuff_Load);
             this.groupBoxComponents.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
