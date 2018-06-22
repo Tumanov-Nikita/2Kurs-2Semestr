@@ -16,7 +16,7 @@ namespace FabricModel
 		public string PartName { get; set; }
 
 		[ForeignKey("PartId")]
-		public virtual List<ArticlePart> ArticleParts { get; set; }
+		public virtual List<StuffPart> StuffParts { get; set; }
 
 		[ForeignKey("PartId")]
 		public virtual List<StoragePart> StorageParts { get; set; }

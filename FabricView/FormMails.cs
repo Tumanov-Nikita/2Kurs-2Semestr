@@ -18,7 +18,7 @@ namespace FabricView
             InitializeComponent();
         }
 
-        public void FormMails_Load(object sender, EventArgs e)
+        private void FormMails_Load(object sender, EventArgs e)
         {
             try
             {

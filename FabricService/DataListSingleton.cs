@@ -15,13 +15,13 @@ namespace FabricService
 
         public List<Part> Parts { get; set; }
 
-        public List<Builder> Builders { get; set; }
+        public List<Executer> Executers { get; set; }
 
-        public List<Contract> Contracts { get; set; }
+        public List<Booking> Bookings { get; set; }
 
-        public List<Article> Articles { get; set; }
+        public List<Stuff> Stuffs { get; set; }
 
-        public List<ArticlePart> ArticleParts { get; set; }
+        public List<StuffPart> StuffParts { get; set; }
 
         public List<Storage> Storages { get; set; }
 
@@ -31,10 +31,10 @@ namespace FabricService
         {
             Customers = new List<Customer>();
             Parts = new List<Part>();
-            Builders = new List<Builder>();
-            Contracts = new List<Contract>();
-            Articles = new List<Article>();
-            ArticleParts = new List<ArticlePart>();
+            Executers = new List<Executer>();
+            Bookings = new List<Booking>();
+            Stuffs = new List<Stuff>();
+            StuffParts = new List<StuffPart>();
             Storages = new List<Storage>();
             StorageParts = new List<StoragePart>();
         }

@@ -1,4 +1,5 @@
-﻿using FabricService.BindingModels;
+﻿using FabricRestApi.Services;
+using FabricService.BindingModels;
 using FabricService.Interfaces;
 using System;
 using System.Web.Http;
@@ -26,27 +27,27 @@ namespace FabricRestApi.Controllers
 		}
 
 		[HttpPost]
-		public void CreateContract(ContractBindingModel model)
+		public void CreateBooking(BookingBindingModel model)
 		{
-			_service.CreateContract(model);
+			_service.CreateBooking(model);
 		}
 
 		[HttpPost]
-		public void TakeContractInWork(ContractBindingModel model)
+		public void TakeBookingInWork(BookingBindingModel model)
 		{
-			_service.TakeContractInWork(model);
+			_service.TakeBookingInWork(model);
 		}
 
 		[HttpPost]
-		public void FinishContract(ContractBindingModel model)
+		public void FinishBooking(BookingBindingModel model)
 		{
-			_service.FinishContract(model.Id);
+			_service.FinishBooking(model.Id);
 		}
 
 		[HttpPost]
-		public void PayContract(ContractBindingModel model)
+		public void PayBooking(BookingBindingModel model)
 		{
-			_service.PayContract(model.Id);
+			_service.PayBooking(model.Id);
 		}
 
 		[HttpPost]
@@ -54,5 +55,17 @@ namespace FabricRestApi.Controllers
 		{
 			_service.PutPartOnStorage(model);
 		}
-	}
+
+        [HttpGet]
+        public IHttpActionResult GetInfo()
+        {
+            ReflectionService service = new ReflectionService();
+            var list = service.GetInfoByAssembly();
+            if (list == null)
+            {
+                InternalServerError(new Exception("Нет данных"));
+            }
+            return Ok(list);
+        }
+    }
 }

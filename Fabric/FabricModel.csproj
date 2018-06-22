@@ -49,11 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Article.cs" />
-    <Compile Include="ArticlePart.cs" />
-    <Compile Include="Builder.cs" />
-    <Compile Include="Contract.cs" />
-    <Compile Include="ContractStatus.cs" />
+    <Compile Include="Stuff.cs" />
+    <Compile Include="StuffPart.cs" />
+    <Compile Include="Executer.cs" />
+    <Compile Include="Booking.cs" />
+    <Compile Include="BookingStatus.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="MessageInfo.cs" />
     <Compile Include="Part.cs" />

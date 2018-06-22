@@ -18,13 +18,13 @@ namespace FabricService
 
         public virtual DbSet<Part> Parts { get; set; }
 
-        public virtual DbSet<Builder> Builders { get; set; }
+        public virtual DbSet<Executer> Executers { get; set; }
 
-        public virtual DbSet<Contract> Contracts { get; set; }
+        public virtual DbSet<Booking> Bookings { get; set; }
 
-        public virtual DbSet<Article> Articles { get; set; }
+        public virtual DbSet<Stuff> Stuffs { get; set; }
 
-        public virtual DbSet<ArticlePart> ArticleParts { get; set; }
+        public virtual DbSet<StuffPart> StuffParts { get; set; }
 
         public virtual DbSet<Storage> Storages { get; set; }
 

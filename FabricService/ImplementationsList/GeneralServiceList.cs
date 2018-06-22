@@ -20,15 +20,15 @@ namespace FabricService.ImplementationsList
             source = DataListSingleton.GetInstance();
         }
 
-        public List<ContractViewModel> GetList()
+        public List<BookingViewModel> GetList()
         {
-            List<ContractViewModel> result = source.Contracts
-                .Select(rec => new ContractViewModel
+            List<BookingViewModel> result = source.Bookings
+                .Select(rec => new BookingViewModel
                 {
                     Id = rec.Id,
                     CustomerId = rec.CustomerId,
-                    ArticleId = rec.ArticleId,
-                    BuilderId = rec.BuilderId,
+                    StuffId = rec.StuffId,
+                    ExecuterId = rec.ExecuterId,
                     DateBegin = rec.DateBegin.ToLongDateString(),
                     DateBuilt = rec.DateBuilt?.ToLongDateString(),
                     Status = rec.Status.ToString(),
@@ -36,38 +36,38 @@ namespace FabricService.ImplementationsList
                     Cost = rec.Cost,
                     CustomerFIO = source.Customers
                                     .FirstOrDefault(recC => recC.Id == rec.CustomerId)?.CustomerFIO,
-                    ArticleName = source.Articles
-                                    .FirstOrDefault(recP => recP.Id == rec.ArticleId)?.ArticleName,
-                    BuilderName = source.Builders
-                                    .FirstOrDefault(recI => recI.Id == rec.BuilderId)?.BuilderFIO
+                    StuffName = source.Stuffs
+                                    .FirstOrDefault(recP => recP.Id == rec.StuffId)?.StuffName,
+                    ExecuterName = source.Executers
+                                    .FirstOrDefault(recI => recI.Id == rec.ExecuterId)?.ExecuterFIO
                 })
                 .ToList();
             return result;
         }
 
-        public void CreateContract(ContractBindingModel model)
+        public void CreateBooking(BookingBindingModel model)
         {
-            int maxId = source.Contracts.Count > 0 ? source.Contracts.Max(rec => rec.Id) : 0;
-            source.Contracts.Add(new Contract
+            int maxId = source.Bookings.Count > 0 ? source.Bookings.Max(rec => rec.Id) : 0;
+            source.Bookings.Add(new Booking
             {
                 Id = maxId + 1,
                 CustomerId = model.CustomerId,
-                ArticleId = model.ArticleId,
+                StuffId = model.StuffId,
                 DateBegin = DateTime.Now,
                 Count = model.Count,
                 Cost = model.Cost,
-                Status = ContractStatus.Принят
+                Status = BookingStatus.Принят
             });
         }
 
-        public void TakeContractInWork(ContractBindingModel model)
+        public void TakeBookingInWork(BookingBindingModel model)
         {
-            Contract element = source.Contracts.FirstOrDefault(rec => rec.Id == model.Id);
+            Booking element = source.Bookings.FirstOrDefault(rec => rec.Id == model.Id);
             if (element == null)
             {
                 throw new Exception("Элемент не найден");
             }
-            var articleParts = source.ArticleParts.Where(rec => rec.ArticleId == element.ArticleId);
+            var articleParts = source.StuffParts.Where(rec => rec.StuffId == element.StuffId);
             foreach (var articlePart in articleParts)
             {
                 int countOnStorages = source.StorageParts
@@ -100,29 +100,29 @@ namespace FabricService.ImplementationsList
                     }
                 }
             }
-            element.BuilderId = model.BuilderId;
+            element.ExecuterId = model.ExecuterId;
             element.DateBuilt = DateTime.Now;
-            element.Status = ContractStatus.Выполняется;
+            element.Status = BookingStatus.Выполняется;
         }
 
-        public void FinishContract(int id)
+        public void FinishBooking(int id)
         {
-            Contract element = source.Contracts.FirstOrDefault(rec => rec.Id == id);
+            Booking element = source.Bookings.FirstOrDefault(rec => rec.Id == id);
             if (element == null)
             {
                 throw new Exception("Элемент не найден");
             }
-            element.Status = ContractStatus.Готов;
+            element.Status = BookingStatus.Готов;
         }
 
-        public void PayContract(int id)
+        public void PayBooking(int id)
         {
-            Contract element = source.Contracts.FirstOrDefault(rec => rec.Id == id);
+            Booking element = source.Bookings.FirstOrDefault(rec => rec.Id == id);
             if (element == null)
             {
                 throw new Exception("Элемент не найден");
             }
-            element.Status = ContractStatus.Оплачен;
+            element.Status = BookingStatus.Оплачен;
         }
 
         public void PutPartOnStorage(StoragePartBindingModel model)
