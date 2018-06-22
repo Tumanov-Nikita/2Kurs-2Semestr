@@ -7,8 +7,8 @@
     <ProjectGuid>{2BC53217-7680-45D4-970E-944996E6AB2E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AbstractShopService</RootNamespace>
-    <AssemblyName>AbstractShopService</AssemblyName>
+    <RootNamespace>FabricService</RootNamespace>
+    <AssemblyName>FabricService</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

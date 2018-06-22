@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{92C588FB-347A-4D3F-948C-A08891347860}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>AbstractShopView</RootNamespace>
-    <AssemblyName>AbstractShopView</AssemblyName>
+    <RootNamespace>FabricView</RootNamespace>
+    <AssemblyName>FabricView</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
