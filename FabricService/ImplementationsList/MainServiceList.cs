@@ -40,11 +40,11 @@ namespace FabricService.ImplementationsList
                     }
                 }
                 string implementerFIO = string.Empty;
-                if(source.Bookings[i].ExecuterId.HasValue)
+                if(source.Bookings[i].BuilderId.HasValue)
                 {
                     for (int j = 0; j < source.Builders.Count; ++j)
                     {
-                        if (source.Builders[j].Id == source.Bookings[i].ExecuterId.Value)
+                        if (source.Builders[j].Id == source.Bookings[i].BuilderId.Value)
                         {
                             implementerFIO = source.Builders[j].BuilderFIO;
                             break;
@@ -58,12 +58,12 @@ namespace FabricService.ImplementationsList
                     CustomerFIO = clientFIO,
                     StuffId = source.Bookings[i].StuffId,
                     StuffName = productName,
-                    ExecuterId = source.Bookings[i].ExecuterId,
-                    ExecuterName = implementerFIO,
-                    Amount = source.Bookings[i].Count,
+                    BuilderId = source.Bookings[i].BuilderId,
+                    BuilderName = implementerFIO,
+                    Count = source.Bookings[i].Count,
                     Sum = source.Bookings[i].Sum,
                     DateCreate = source.Bookings[i].DateCreate.ToLongDateString(),
-                    DateExecute = source.Bookings[i].DateExecute?.ToLongDateString(),
+                    DateExecute = source.Bookings[i].DateBuild?.ToLongDateString(),
                     Status = source.Bookings[i].Status.ToString()
                 });
             }
@@ -117,17 +117,17 @@ namespace FabricService.ImplementationsList
                     {
                         if(source.StorageParts[j].PartId == source.StuffParts[i].PartId)
                         {
-                            countOnStocks += source.StorageParts[j].Amount;
+                            countOnStocks += source.StorageParts[j].Count;
                         }
                     }
-                    if(countOnStocks < source.StuffParts[i].Amount * source.Bookings[index].Count)
+                    if(countOnStocks < source.StuffParts[i].Count * source.Bookings[index].Count)
                     {
                         for (int j = 0; j < source.Parts.Count; ++j)
                         {
                             if (source.Parts[j].Id == source.StuffParts[i].PartId)
                             {
                                 throw new Exception("Не достаточно компонента " + source.Parts[j].PartName + 
-                                    " требуется " + source.StuffParts[i].Amount + ", в наличии " + countOnStocks);
+                                    " требуется " + source.StuffParts[i].Count + ", в наличии " + countOnStocks);
                             }
                         }
                     }
@@ -138,28 +138,28 @@ namespace FabricService.ImplementationsList
             {
                 if (source.StuffParts[i].StuffId == source.Bookings[index].StuffId)
                 {
-                    int countOnStocks = source.StuffParts[i].Amount * source.Bookings[index].Count;
+                    int countOnStocks = source.StuffParts[i].Count * source.Bookings[index].Count;
                     for (int j = 0; j < source.StorageParts.Count; ++j)
                     {
                         if (source.StorageParts[j].PartId == source.StuffParts[i].PartId)
                         {
                             // компонентов на одном слкаде может не хватать
-                            if (source.StorageParts[j].Amount >= countOnStocks)
+                            if (source.StorageParts[j].Count >= countOnStocks)
                             {
-                                source.StorageParts[j].Amount -= countOnStocks;
+                                source.StorageParts[j].Count -= countOnStocks;
                                 break;
                             }
                             else
                             {
-                                countOnStocks -= source.StorageParts[j].Amount;
-                                source.StorageParts[j].Amount = 0;
+                                countOnStocks -= source.StorageParts[j].Count;
+                                source.StorageParts[j].Count = 0;
                             }
                         }
                     }
                 }
             }
-            source.Bookings[index].ExecuterId = model.BuilderId;
-            source.Bookings[index].DateExecute = DateTime.Now;
+            source.Bookings[index].BuilderId = model.BuilderId;
+            source.Bookings[index].DateBuild = DateTime.Now;
             source.Bookings[index].Status = BookingStatus.Выполняется;
         }
 
@@ -207,7 +207,7 @@ namespace FabricService.ImplementationsList
                 if(source.StorageParts[i].StorageId == model.StorageId && 
                     source.StorageParts[i].PartId == model.PartId)
                 {
-                    source.StorageParts[i].Amount += model.Count;
+                    source.StorageParts[i].Count += model.Count;
                     return;
                 }
                 if (source.StorageParts[i].Id > maxId)
@@ -220,7 +220,7 @@ namespace FabricService.ImplementationsList
                 Id = ++maxId,
                 StorageId = model.StorageId,
                 PartId = model.PartId,
-                Amount = model.Count
+                Count = model.Count
             });
         }
     }

@@ -7,8 +7,8 @@
     <ProjectGuid>{2BC53217-7680-45D4-970E-944996E6AB2E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FabricService</RootNamespace>
-    <AssemblyName>FabricService</AssemblyName>
+    <RootNamespace>AbstractShopService</RootNamespace>
+    <AssemblyName>AbstractShopService</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -42,7 +42,7 @@
   <ItemGroup>
     <Compile Include="BindingModels\CustomerBindingModel.cs" />
     <Compile Include="BindingModels\PartBindingModel.cs" />
-    <Compile Include="BindingModels\BuilderBindingModel.cs" />
+    <Compile Include="BindingModels\ExecuterBindingModel.cs" />
     <Compile Include="BindingModels\BookingBindingModel.cs" />
     <Compile Include="BindingModels\StuffBindingModel.cs" />
     <Compile Include="BindingModels\StuffPartsBindingModel.cs" />
@@ -51,20 +51,20 @@
     <Compile Include="DataList.cs" />
     <Compile Include="ImplementationsList\CustomerServiceList.cs" />
     <Compile Include="ImplementationsList\PartServiceList.cs" />
-    <Compile Include="ImplementationsList\BuilderServiceList.cs" />
+    <Compile Include="ImplementationsList\ExecuterServiceList.cs" />
     <Compile Include="ImplementationsList\MainServiceList.cs" />
     <Compile Include="ImplementationsList\StuffServiceList.cs" />
     <Compile Include="ImplementationsList\StorageServiceList.cs" />
     <Compile Include="Interfaces\ICustomerService.cs" />
     <Compile Include="Interfaces\IPartService.cs" />
-    <Compile Include="Interfaces\IBuilderService.cs" />
+    <Compile Include="Interfaces\IExecuterService.cs" />
     <Compile Include="Interfaces\IMainService.cs" />
     <Compile Include="Interfaces\IStuffService.cs" />
     <Compile Include="Interfaces\IStorageService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\CustomerViewModel.cs" />
     <Compile Include="ViewModels\PartViewModel.cs" />
-    <Compile Include="ViewModels\BuilderViewModel.cs" />
+    <Compile Include="ViewModels\ExecuterViewModel.cs" />
     <Compile Include="ViewModels\BookingViewModel.cs" />
     <Compile Include="ViewModels\StuffPartsViewModel.cs" />
     <Compile Include="ViewModels\StuffViewModel.cs" />
