@@ -42,7 +42,7 @@ namespace FabricService.ImplementationsList
                             StorageId = source.StorageParts[j].StorageId,
                             PartId = source.StorageParts[j].PartId,
                             PartName = componentName,
-                            Amount = source.StorageParts[j].Amount
+                            Count = source.StorageParts[j].Count
                         });
                     }
                 }
@@ -81,7 +81,7 @@ namespace FabricService.ImplementationsList
                             StorageId = source.StorageParts[j].StorageId,
                             PartId = source.StorageParts[j].PartId,
                             PartName = componentName,
-                            Amount = source.StorageParts[j].Amount
+                            Count = source.StorageParts[j].Count
                         });
                     }
                 }

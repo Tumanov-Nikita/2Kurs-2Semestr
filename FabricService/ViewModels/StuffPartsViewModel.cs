@@ -10,6 +10,6 @@
 
         public string PartName { get; set; }
 
-        public int Amount { get; set; }
+        public int Count { get; set; }
     }
 }
