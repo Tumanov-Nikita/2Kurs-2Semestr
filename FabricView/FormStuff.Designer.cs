@@ -108,7 +108,7 @@
             this.groupBoxComponents.Size = new System.Drawing.Size(478, 250);
             this.groupBoxComponents.TabIndex = 4;
             this.groupBoxComponents.TabStop = false;
-            this.groupBoxComponents.Text = "Детали";
+            this.groupBoxComponents.Text = "Материалы";
             // 
             // buttonRef
             // 

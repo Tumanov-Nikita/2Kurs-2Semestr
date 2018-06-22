@@ -1,93 +1,85 @@
 ﻿using FabricService.BindingModels;
 using FabricService.ViewModels;
 using System;
-using System.Net.Http;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace FabricView
 {
-	public partial class FormExecuter : Form
-	{
-		public int Id { set { id = value; } }
+    public partial class FormExecuter : Form
+    {
+        public int Id { set { id = value; } }
 
-		private int? id;
+        private int? id;
 
-		public FormExecuter()
-		{
-			InitializeComponent();
-		}
+        public FormExecuter()
+        {
+            InitializeComponent();
+        }
 
-		private void FormExecuter_Load(object sender, EventArgs e)
-		{
-			if (id.HasValue)
-			{
-				try
-				{
-					var response = APIClient.GetRequest("api/Executer/Get/" + id.Value);
-					if (response.Result.IsSuccessStatusCode)
-					{
-						var Executer = APIClient.GetElement<ExecuterViewModel>(response);
-						textBoxFIO.Text = Executer.ExecuterFIO;
-					}
-					else
-					{
-						throw new Exception(APIClient.GetError(response));
-					}
-				}
-				catch (Exception ex)
-				{
-					MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-				}
-			}
-		}
+        private void FormExecuter_Load(object sender, EventArgs e)
+        {
+            if (id.HasValue)
+            {
+                try
+                {
+                    var Executer = Task.Run(() => APIClient.GetRequestData<ExecuterViewModel>("api/Executer/Get/" + id.Value)).Result;
+                    textBoxFIO.Text = Executer.ExecuterFIO;
+                }
+                catch (Exception ex)
+                {
+                    while (ex.InnerException != null)
+                    {
+                        ex = ex.InnerException;
+                    }
+                    MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
 
-		private void buttonSave_Click(object sender, EventArgs e)
-		{
-			if (string.IsNullOrEmpty(textBoxFIO.Text))
-			{
-				MessageBox.Show("Заполните ФИО", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-				return;
-			}
-			try
-			{
-				Task<HttpResponseMessage> response;
-				if (id.HasValue)
-				{
-					response = APIClient.PostRequest("api/Executer/UpdElement", new ExecuterBindingModel
-					{
-						Id = id.Value,
-						ExecuterFIO = textBoxFIO.Text
-					});
-				}
-				else
-				{
-					response = APIClient.PostRequest("api/Executer/AddElement", new ExecuterBindingModel
-					{
-						ExecuterFIO = textBoxFIO.Text
-					});
-				}
-				if (response.Result.IsSuccessStatusCode)
-				{
-					MessageBox.Show("Сохранение прошло успешно", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
-					DialogResult = DialogResult.OK;
-					Close();
-				}
-				else
-				{
-					throw new Exception(APIClient.GetError(response));
-				}
-			}
-			catch (Exception ex)
-			{
-				MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-			}
-		}
+        private void buttonSave_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(textBoxFIO.Text))
+            {
+                MessageBox.Show("Заполните ФИО", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            string fio = textBoxFIO.Text;
+            Task task;
+            if (id.HasValue)
+            {
+                task = Task.Run(() => APIClient.PostRequestData("api/Executer/UpdElement", new ExecuterBindingModel
+                {
+                    Id = id.Value,
+                    ExecuterFIO = fio
+                }));
+            }
+            else
+            {
+                task = Task.Run(() => APIClient.PostRequestData("api/Executer/AddElement", new ExecuterBindingModel
+                {
+                    ExecuterFIO = fio
+                }));
+            }
 
-		private void buttonCancel_Click(object sender, EventArgs e)
-		{
-			DialogResult = DialogResult.Cancel;
-			Close();
-		}
-	}
+            task.ContinueWith((prevTask) => MessageBox.Show("Сохранение прошло успешно. Обновите список", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information),
+                TaskContinuationOptions.OnlyOnRanToCompletion);
+            task.ContinueWith((prevTask) =>
+            {
+                var ex = (Exception)prevTask.Exception;
+                while (ex.InnerException != null)
+                {
+                    ex = ex.InnerException;
+                }
+                MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }, TaskContinuationOptions.OnlyOnFaulted);
+
+            Close();
+        }
+
+        private void buttonCancel_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+    }
 }

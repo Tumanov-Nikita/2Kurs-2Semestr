@@ -88,9 +88,9 @@
             this.labelComponent.AutoSize = true;
             this.labelComponent.Location = new System.Drawing.Point(12, 36);
             this.labelComponent.Name = "labelComponent";
-            this.labelComponent.Size = new System.Drawing.Size(60, 13);
+            this.labelComponent.Size = new System.Drawing.Size(48, 13);
             this.labelComponent.TabIndex = 2;
-            this.labelComponent.Text = "Материал:";
+            this.labelComponent.Text = "Деталь:";
             // 
             // comboBoxStorage
             // 

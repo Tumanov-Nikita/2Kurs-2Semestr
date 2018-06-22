@@ -419,6 +419,7 @@ C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\pt\Micro
 C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.csprojResolveAssemblyReference.cache
 C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormCustomerContracts.resources
 C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormArticle.resources
 C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormArticlePart.resources
@@ -546,128 +547,237 @@ C:\Users\User-\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\Alexeys
 C:\Users\User-\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.csproj.CopyComplete
 C:\Users\User-\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.exe
 C:\Users\User-\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.pdb
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\SqlServerTypes\x64\msvcr120.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\SqlServerTypes\x86\msvcr120.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShopView.exe.config
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShopView.exe
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShopView.pdb
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShop.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShopService.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\EntityFramework.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.ReportViewer.Common.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.ReportViewer.Design.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.SqlServer.Types.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Newtonsoft.Json.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\System.Net.Http.Formatting.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\itextsharp.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\EnvDTE.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\stdole.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.MSXML.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShopService.pdb
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShopService.dll.config
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShop.pdb
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShop.dll.config
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\EntityFramework.xml
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Newtonsoft.Json.xml
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\System.Net.Http.Formatting.xml
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\itextsharp.xml
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.csprojResolveAssemblyReference.cache
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormCustomerContracts.resources
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormArticle.resources
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormArticlePart.resources
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormArticles.resources
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormBuilder.resources
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormBuilders.resources
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormCreateContract.resources
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormCustomer.resources
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormCustomers.resources
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormGeneral.resources
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormPart.resources
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormParts.resources
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormPutOnStorage.resources
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormStorage.resources
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormStoragesLoad.resources
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormTakeContractInWork.resources
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.Properties.Resources.resources
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.csproj.GenerateResource.cache
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.csproj.CoreCompileInputs.cache
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.csproj.CopyComplete
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.exe
-C:\Users\User-\Desktop\для Лёши\институт\2 курс\Программирование\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.pdb
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\EnvDTE80.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\VSLangProj.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\VSLangProj80.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\VSLangProj2.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\ru\Microsoft.VisualStudio.Data.Services.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\ru\Microsoft.VisualStudio.Data.Core.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\bin\Debug\ru\Microsoft.VisualStudio.GraphModel.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.csprojAssemblyReference.cache
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.csprojResolveAssemblyReference.cache
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormCustomerContracts.resources
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormArticle.resources
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormArticlePart.resources
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormArticles.resources
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormBuilder.resources
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormBuilders.resources
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormCreateContract.resources
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormCustomer.resources
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormCustomers.resources
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormGeneral.resources
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormPart.resources
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormParts.resources
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormPutOnStorage.resources
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormStorage.resources
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormStoragesLoad.resources
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormTakeContractInWork.resources
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.Properties.Resources.resources
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.csproj.GenerateResource.cache
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.csproj.CoreCompileInputs.cache
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.exe
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.pdb
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShopView.exe.config
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShopView.exe
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShopView.pdb
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShop.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShopService.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\EntityFramework.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\itextsharp.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\EnvDTE.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\stdole.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.MSXML.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShopService.pdb
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShopService.dll.config
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShop.pdb
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShop.dll.config
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\EntityFramework.xml
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\itextsharp.xml
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\User-\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.csproj.CopyComplete
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShopView.exe.config
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShopView.exe
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShopView.pdb
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShop.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShopService.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\EntityFramework.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\itextsharp.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\EnvDTE.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\stdole.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\EnvDTE80.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\VSLangProj.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\VSLangProj80.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\VSLangProj2.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShopService.pdb
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShopService.dll.config
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShop.pdb
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\AlexeysShop.dll.config
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\EntityFramework.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\itextsharp.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ru\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\bin\Debug\ru\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.csprojAssemblyReference.cache
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormCustomerContracts.resources
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormArticle.resources
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormArticlePart.resources
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormArticles.resources
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormBuilder.resources
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormBuilders.resources
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormCreateContract.resources
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormCustomer.resources
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormCustomers.resources
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormGeneral.resources
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormPart.resources
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormParts.resources
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormPutOnStorage.resources
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormStorage.resources
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormStoragesLoad.resources
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.FormTakeContractInWork.resources
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.Properties.Resources.resources
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.csproj.GenerateResource.cache
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.csproj.CopyComplete
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.exe
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\AlexeysShopView\obj\Debug\AlexeysShopView.pdb

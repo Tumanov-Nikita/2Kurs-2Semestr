@@ -1,21 +1,21 @@
 ﻿using FabricModel;
-using FabricService.BindingModels;
-using FabricService.Interfaces;
-using FabricService.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.SqlServer;
 using System.Linq;
 using System.Data.Entity;
 using Fabric;
+using FabricService.Interfaces;
+using FabricService.ViewModels;
+using FabricService.BindingModels;
 
 namespace FabricService.ImplementationsBD
 {
 	public class GeneralServiceBD : IGeneralService
 	{
-		private FabricDbContext context;
+		private AlexeysDbContext context;
 
-		public GeneralServiceBD(FabricDbContext context)
+		public GeneralServiceBD(AlexeysDbContext context)
 		{
 			this.context = context;
 		}

@@ -1,7 +1,4 @@
-﻿using FabricService;
-using FabricService.ImplementationsBD;
-using FabricService.ImplementationsList;
-using FabricService.Interfaces;
+﻿
 using System;
 using System.Data.Entity;
 using System.Windows.Forms;

@@ -46,7 +46,7 @@
             this.groupBoxComponents.Size = new System.Drawing.Size(358, 250);
             this.groupBoxComponents.TabIndex = 11;
             this.groupBoxComponents.TabStop = false;
-            this.groupBoxComponents.Text = "Материалы";
+            this.groupBoxComponents.Text = "Детали";
             // 
             // dataGridView
             // 

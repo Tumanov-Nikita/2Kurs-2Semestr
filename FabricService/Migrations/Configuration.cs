@@ -1,18 +1,18 @@
-namespace AlexeysShopService.Migrations
+namespace FabricService.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<FabricService.FabricDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<FabricService.AlexeysDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(FabricService.FabricDbContext context)
+        protected override void Seed(FabricService.AlexeysDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

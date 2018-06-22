@@ -1,24 +1,48 @@
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShop\bin\Debug\AlexeysShop.dll.config
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShop\bin\Debug\AlexeysShop.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShop\bin\Debug\AlexeysShop.pdb
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShop\bin\Debug\EntityFramework.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShop\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShop\bin\Debug\EntityFramework.xml
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShop\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShop\obj\Debug\FabricModel.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShop\obj\Debug\FabricModel.csproj.CopyComplete
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShop\obj\Debug\AlexeysShop.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShop\obj\Debug\AlexeysShop.pdb
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShop\obj\Debug\FabricModel.csprojAssemblyReference.cache
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\Fabric\bin\Debug\Fabric.dll.config
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\Fabric\bin\Debug\Fabric.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\Fabric\bin\Debug\Fabric.pdb
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\Fabric\bin\Debug\EntityFramework.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\Fabric\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\Fabric\bin\Debug\EntityFramework.xml
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\Fabric\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\Fabric\obj\Debug\FabricModel.csprojAssemblyReference.cache
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\Fabric\obj\Debug\FabricModel.csproj.CoreCompileInputs.cache
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\Fabric\obj\Debug\FabricModel.csproj.CopyComplete
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\Fabric\obj\Debug\Fabric.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\Fabric\obj\Debug\Fabric.pdb
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\Fabric\bin\Debug\Fabric.dll.config
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\Fabric\bin\Debug\Fabric.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\Fabric\bin\Debug\Fabric.pdb
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\Fabric\bin\Debug\EntityFramework.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\Fabric\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\Fabric\bin\Debug\EntityFramework.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\Fabric\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\Fabric\obj\Debug\FabricModel.csprojAssemblyReference.cache
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\Fabric\obj\Debug\FabricModel.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\Fabric\obj\Debug\FabricModel.csproj.CopyComplete
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\Fabric\obj\Debug\Fabric.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\Fabric\obj\Debug\Fabric.pdb
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\Fabric\bin\Debug\Fabric.dll.config
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\Fabric\bin\Debug\Fabric.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\Fabric\bin\Debug\Fabric.pdb
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\Fabric\bin\Debug\EntityFramework.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\Fabric\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\Fabric\bin\Debug\EntityFramework.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\Fabric\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\Fabric\obj\Debug\FabricModel.csprojAssemblyReference.cache
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\Fabric\obj\Debug\FabricModel.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\Fabric\obj\Debug\FabricModel.csproj.CopyComplete
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\Fabric\obj\Debug\Fabric.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\Fabric\obj\Debug\Fabric.pdb
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\Fabric\bin\Debug\Fabric.dll.config
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\Fabric\bin\Debug\Fabric.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\Fabric\bin\Debug\Fabric.pdb
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\Fabric\bin\Debug\EntityFramework.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\Fabric\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\Fabric\bin\Debug\EntityFramework.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\Fabric\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\Fabric\obj\Debug\FabricModel.csprojAssemblyReference.cache
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\Fabric\obj\Debug\FabricModel.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\Fabric\obj\Debug\FabricModel.csproj.CopyComplete
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\Fabric\obj\Debug\Fabric.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\Fabric\obj\Debug\Fabric.pdb
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\Fabric\bin\Debug\Fabric.dll.config
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\Fabric\bin\Debug\Fabric.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\Fabric\bin\Debug\Fabric.pdb
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\Fabric\bin\Debug\EntityFramework.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\Fabric\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\Fabric\bin\Debug\EntityFramework.xml
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\Fabric\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\Fabric\obj\Debug\FabricModel.csprojAssemblyReference.cache
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\Fabric\obj\Debug\FabricModel.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\Fabric\obj\Debug\FabricModel.csproj.CopyComplete
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\Fabric\obj\Debug\Fabric.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\Fabric\obj\Debug\Fabric.pdb

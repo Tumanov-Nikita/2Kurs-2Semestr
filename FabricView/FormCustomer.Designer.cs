@@ -81,7 +81,7 @@
             this.Controls.Add(this.labelFIO);
             this.Name = "FormCustomer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Заказчик";
+            this.Text = "Клиент";
             this.Load += new System.EventHandler(this.FormCustomer_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

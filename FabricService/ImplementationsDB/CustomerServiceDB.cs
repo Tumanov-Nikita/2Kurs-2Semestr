@@ -10,9 +10,9 @@ namespace FabricService.ImplementationsBD
 {
 	public class CustomerServiceBD : ICustomerService
 	{
-		private FabricDbContext context;
+		private AlexeysDbContext context;
 
-		public CustomerServiceBD(FabricDbContext context)
+		public CustomerServiceBD(AlexeysDbContext context)
 		{
 			this.context = context;
 		}
