@@ -157,7 +157,7 @@
             this.buttonPayOrder.TabIndex = 4;
             this.buttonPayOrder.Text = "Контракт оплачен";
             this.buttonPayOrder.UseVisualStyleBackColor = true;
-            this.buttonPayOrder.Click += new System.EventHandler(this.buttonPayContract_Click);
+            this.buttonPayOrder.Click += new System.EventHandler(this.buttonPayBooking_Click);
             // 
             // buttonOrderReady
             // 
@@ -167,7 +167,7 @@
             this.buttonOrderReady.TabIndex = 3;
             this.buttonOrderReady.Text = "Контракт выполнен";
             this.buttonOrderReady.UseVisualStyleBackColor = true;
-            this.buttonOrderReady.Click += new System.EventHandler(this.buttonContractReady_Click);
+            this.buttonOrderReady.Click += new System.EventHandler(this.buttonBookingReady_Click);
             // 
             // buttonTakeOrderInWork
             // 
@@ -177,7 +177,7 @@
             this.buttonTakeOrderInWork.TabIndex = 2;
             this.buttonTakeOrderInWork.Text = "Отдать на выполнение";
             this.buttonTakeOrderInWork.UseVisualStyleBackColor = true;
-            this.buttonTakeOrderInWork.Click += new System.EventHandler(this.buttonTakeContractInWork_Click);
+            this.buttonTakeOrderInWork.Click += new System.EventHandler(this.buttonTakeBookingInWork_Click);
             // 
             // buttonCreateOrder
             // 
@@ -187,7 +187,7 @@
             this.buttonCreateOrder.TabIndex = 1;
             this.buttonCreateOrder.Text = "Создать контракт";
             this.buttonCreateOrder.UseVisualStyleBackColor = true;
-            this.buttonCreateOrder.Click += new System.EventHandler(this.buttonCreateContract_Click);
+            this.buttonCreateOrder.Click += new System.EventHandler(this.buttonCreateBooking_Click);
             // 
             // dataGridView
             // 

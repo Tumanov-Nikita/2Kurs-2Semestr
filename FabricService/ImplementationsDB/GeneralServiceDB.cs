@@ -23,15 +23,15 @@ namespace FabricService.ImplementationsBD
 			this.context = context;
 		}
 
-		public List<ContractViewModel> GetList()
+		public List<BookingViewModel> GetList()
 		{
-			List<ContractViewModel> result = context.Contracts
-				.Select(rec => new ContractViewModel
+			List<BookingViewModel> result = context.Bookings
+				.Select(rec => new BookingViewModel
 				{
 					Id = rec.Id,
 					CustomerId = rec.CustomerId,
-					ArticleId = rec.ArticleId,
-					BuilderId = rec.BuilderId,
+					StuffId = rec.StuffId,
+					ExecuterId = rec.ExecuterId,
 					DateBegin = SqlFunctions.DateName("dd", rec.DateBegin) + " " +
 								SqlFunctions.DateName("mm", rec.DateBegin) + " " +
 								SqlFunctions.DateName("yyyy", rec.DateBegin),
@@ -43,54 +43,54 @@ namespace FabricService.ImplementationsBD
 					Count = rec.Count,
 					Cost = rec.Cost,
 					CustomerFIO = rec.Customer.CustomerFIO,
-					ArticleName = rec.Article.ArticleName,
-					BuilderName = rec.Builder.BuilderFIO
+					StuffName = rec.Stuff.StuffName,
+					ExecuterName = rec.Executer.ExecuterFIO
 				})
 				.ToList();
 			return result;
 		}
 
-        public void CreateContract(ContractBindingModel model)
+        public void CreateBooking(BookingBindingModel model)
         {
-            var Contract = new Contract
+            var Booking = new Booking
             {
                 CustomerId = model.CustomerId,
-                ArticleId = model.ArticleId,
+                StuffId = model.StuffId,
                 DateBegin = DateTime.Now,
                 Count = model.Count,
                 Cost = model.Cost,
-                Status = ContractStatus.Принят
+                Status = BookingStatus.Принят
             };
-            context.Contracts.Add(Contract);
+            context.Bookings.Add(Booking);
             context.SaveChanges();
 
             var Customer = context.Customers.FirstOrDefault(x => x.Id == model.CustomerId);
             SendEmail(Customer.Mail, "Оповещение по заказам",
-                string.Format("Заказ №{0} от {1} создан успешно", Contract.Id,
-                Contract.DateBegin.ToShortDateString()));
+                string.Format("Заказ №{0} от {1} создан успешно", Booking.Id,
+                Booking.DateBegin.ToShortDateString()));
         }
 
-        public void TakeContractInWork(ContractBindingModel model)
+        public void TakeBookingInWork(BookingBindingModel model)
 		{
 			using (var transaction = context.Database.BeginTransaction())
 			{
 				try
 				{
 
-					Contract element = context.Contracts.FirstOrDefault(rec => rec.Id == model.Id);
+					Booking element = context.Bookings.FirstOrDefault(rec => rec.Id == model.Id);
 					if (element == null)
 					{
 						throw new Exception("Элемент не найден");
 					}
-					var ArticleParts = context.ArticleParts
+					var StuffParts = context.StuffParts
 												.Include(rec => rec.Part)
-												.Where(rec => rec.ArticleId == element.ArticleId);
+												.Where(rec => rec.StuffId == element.StuffId);
 					// списываем
-					foreach (var ArticlePart in ArticleParts)
+					foreach (var StuffPart in StuffParts)
 					{
-						int countOnStorages = ArticlePart.Count * element.Count;
+						int countOnStorages = StuffPart.Count * element.Count;
 						var storageParts = context.StorageParts
-													.Where(rec => rec.PartId == ArticlePart.PartId);
+													.Where(rec => rec.PartId == StuffPart.PartId);
 						foreach (var storagePart in storageParts)
 						{
 							// компонентов на одном слкаде может не хватать
@@ -111,13 +111,13 @@ namespace FabricService.ImplementationsBD
 						if (countOnStorages > 0)
 						{
 							throw new Exception("Не достаточно компонента " +
-								ArticlePart.Part.PartName + " требуется " +
-								ArticlePart.Count + ", не хватает " + countOnStorages);
+								StuffPart.Part.PartName + " требуется " +
+								StuffPart.Count + ", не хватает " + countOnStorages);
 						}
 					}
-					element.BuilderId = model.BuilderId;
+					element.ExecuterId = model.ExecuterId;
 					element.DateBuilt = DateTime.Now;
-					element.Status = ContractStatus.Выполняется;
+					element.Status = BookingStatus.Выполняется;
 					context.SaveChanges();
 					transaction.Commit();
 				}
@@ -129,28 +129,28 @@ namespace FabricService.ImplementationsBD
 			}
 		}
 
-        public void FinishContract(int id)
+        public void FinishBooking(int id)
         {
-            Contract element = context.Contracts.Include(rec => rec.Customer).FirstOrDefault(rec => rec.Id == id);
+            Booking element = context.Bookings.Include(rec => rec.Customer).FirstOrDefault(rec => rec.Id == id);
             if (element == null)
             {
                 throw new Exception("Элемент не найден");
             }
-            element.Status = ContractStatus.Готов;
+            element.Status = BookingStatus.Готов;
             context.SaveChanges();
             SendEmail(element.Customer.Mail, "Оповещение по заказам",
                 string.Format("Заказ №{0} от {1} передан на оплату", element.Id,
                 element.DateBegin.ToShortDateString()));
         }
 
-        public void PayContract(int id)
+        public void PayBooking(int id)
 		{
-			Contract element = context.Contracts.FirstOrDefault(rec => rec.Id == id);
+			Booking element = context.Bookings.FirstOrDefault(rec => rec.Id == id);
 			if (element == null)
 			{
 				throw new Exception("Элемент не найден");
 			}
-			element.Status = ContractStatus.Оплачен;
+			element.Status = BookingStatus.Оплачен;
 			context.SaveChanges();
 		}
 

@@ -18,6 +18,6 @@ namespace FabricModel
         public string Mail { get; set; }
 
         [ForeignKey("CustomerId")]
-		public virtual List<Contract> Contracts { get; set; }
+		public virtual List<Booking> Bookings { get; set; }
 	}
 }

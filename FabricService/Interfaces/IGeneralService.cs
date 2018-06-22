@@ -1,4 +1,5 @@
-﻿using FabricService.BindingModels;
+﻿using FabricService.Attributies;
+using FabricService.BindingModels;
 using FabricService.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -8,19 +9,25 @@ using System.Threading.Tasks;
 
 namespace FabricService.Interfaces
 {
+    [CustomInterface("Интерфейс для работы с заказами")]
     public interface IGeneralService
     {
-        List<ContractViewModel> GetList();
+        [CustomMethod("Метод получения списка заказов")]
+        List<BookingViewModel> GetList();
 
-        void CreateContract(ContractBindingModel model);
+        [CustomMethod("Метод создания заказа")]
+        void CreateBooking(BookingBindingModel model);
 
-        void TakeContractInWork(ContractBindingModel model);
+        [CustomMethod("Метод передачи заказа в работу")]
+        void TakeBookingInWork(BookingBindingModel model);
 
-        void FinishContract(int id);
+        [CustomMethod("Метод передачи заказа на оплату")]
+        void FinishBooking(int id);
 
-        void PayContract(int id);
+        [CustomMethod("Метод фиксирования оплаты по заказу")]
+        void PayBooking(int id);
 
+        [CustomMethod("Метод пополнения компонент на складе")]
         void PutPartOnStorage(StoragePartBindingModel model);
-
     }
 }

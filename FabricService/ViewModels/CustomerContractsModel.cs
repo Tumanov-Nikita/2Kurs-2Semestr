@@ -3,14 +3,14 @@
 namespace FabricService.ViewModels
 {
     [DataContract]
-    public class CustomerContractsModel
+    public class CustomerBookingsModel
     {
         [DataMember]
         public string CustomerName { get; set; }
         [DataMember]
         public string DateCreate { get; set; }
         [DataMember]
-        public string ArticleName { get; set; }
+        public string StuffName { get; set; }
         [DataMember]
         public int Count { get; set; }
         [DataMember]

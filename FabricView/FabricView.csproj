@@ -102,41 +102,41 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="APIClient.cs" />
-    <Compile Include="FormArticle.cs">
+    <Compile Include="FormStuff.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormArticle.Designer.cs">
-      <DependentUpon>FormArticle.cs</DependentUpon>
+    <Compile Include="FormStuff.Designer.cs">
+      <DependentUpon>FormStuff.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormArticlePart.cs">
+    <Compile Include="FormStuffPart.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormArticlePart.Designer.cs">
-      <DependentUpon>FormArticlePart.cs</DependentUpon>
+    <Compile Include="FormStuffPart.Designer.cs">
+      <DependentUpon>FormStuffPart.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormArticles.cs">
+    <Compile Include="FormStuffs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormArticles.Designer.cs">
-      <DependentUpon>FormArticles.cs</DependentUpon>
+    <Compile Include="FormStuffs.Designer.cs">
+      <DependentUpon>FormStuffs.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormBuilder.cs">
+    <Compile Include="FormExecuter.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormBuilder.Designer.cs">
-      <DependentUpon>FormBuilder.cs</DependentUpon>
+    <Compile Include="FormExecuter.Designer.cs">
+      <DependentUpon>FormExecuter.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormBuilders.cs">
+    <Compile Include="FormExecuters.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormBuilders.Designer.cs">
-      <DependentUpon>FormBuilders.cs</DependentUpon>
+    <Compile Include="FormExecuters.Designer.cs">
+      <DependentUpon>FormExecuters.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormCreateContract.cs">
+    <Compile Include="FormCreateBooking.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCreateContract.Designer.cs">
-      <DependentUpon>FormCreateContract.cs</DependentUpon>
+    <Compile Include="FormCreateBooking.Designer.cs">
+      <DependentUpon>FormCreateBooking.cs</DependentUpon>
     </Compile>
     <Compile Include="FormCustomer.cs">
       <SubType>Form</SubType>
@@ -144,11 +144,11 @@
     <Compile Include="FormCustomer.Designer.cs">
       <DependentUpon>FormCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormCustomerContracts.cs">
+    <Compile Include="FormCustomerBookings.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCustomerContracts.Designer.cs">
-      <DependentUpon>FormCustomerContracts.cs</DependentUpon>
+    <Compile Include="FormCustomerBookings.Designer.cs">
+      <DependentUpon>FormCustomerBookings.cs</DependentUpon>
     </Compile>
     <Compile Include="FormCustomers.cs">
       <SubType>Form</SubType>
@@ -204,38 +204,38 @@
     <Compile Include="FormStoragesLoad.Designer.cs">
       <DependentUpon>FormStoragesLoad.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTakeContractInWork.cs">
+    <Compile Include="FormTakeBookingInWork.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTakeContractInWork.Designer.cs">
-      <DependentUpon>FormTakeContractInWork.cs</DependentUpon>
+    <Compile Include="FormTakeBookingInWork.Designer.cs">
+      <DependentUpon>FormTakeBookingInWork.cs</DependentUpon>
     </Compile>
     <Compile Include="HttpErrorMessage.cs" />
     <Compile Include="MailClient.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlServerTypes\Loader.cs" />
-    <EmbeddedResource Include="FormCustomerContracts.resx">
-      <DependentUpon>FormCustomerContracts.cs</DependentUpon>
+    <EmbeddedResource Include="FormCustomerBookings.resx">
+      <DependentUpon>FormCustomerBookings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ReportCustomerContracts.rdlc" />
-    <EmbeddedResource Include="FormArticle.resx">
-      <DependentUpon>FormArticle.cs</DependentUpon>
+    <EmbeddedResource Include="FormStuff.resx">
+      <DependentUpon>FormStuff.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormArticlePart.resx">
-      <DependentUpon>FormArticlePart.cs</DependentUpon>
+    <EmbeddedResource Include="FormStuffPart.resx">
+      <DependentUpon>FormStuffPart.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormArticles.resx">
-      <DependentUpon>FormArticles.cs</DependentUpon>
+    <EmbeddedResource Include="FormStuffs.resx">
+      <DependentUpon>FormStuffs.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormBuilder.resx">
-      <DependentUpon>FormBuilder.cs</DependentUpon>
+    <EmbeddedResource Include="FormExecuter.resx">
+      <DependentUpon>FormExecuter.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormBuilders.resx">
-      <DependentUpon>FormBuilders.cs</DependentUpon>
+    <EmbeddedResource Include="FormExecuters.resx">
+      <DependentUpon>FormExecuters.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCreateContract.resx">
-      <DependentUpon>FormCreateContract.cs</DependentUpon>
+    <EmbeddedResource Include="FormCreateBooking.resx">
+      <DependentUpon>FormCreateBooking.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormCustomer.resx">
       <DependentUpon>FormCustomer.cs</DependentUpon>
@@ -261,8 +261,8 @@
     <EmbeddedResource Include="FormStoragesLoad.resx">
       <DependentUpon>FormStoragesLoad.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormTakeContractInWork.resx">
-      <DependentUpon>FormTakeContractInWork.cs</DependentUpon>
+    <EmbeddedResource Include="FormTakeBookingInWork.resx">
+      <DependentUpon>FormTakeBookingInWork.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

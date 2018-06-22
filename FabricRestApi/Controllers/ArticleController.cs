@@ -5,11 +5,11 @@ using System.Web.Http;
 
 namespace FabricRestApi.Controllers
 {
-	public class ArticleController : ApiController
+	public class StuffController : ApiController
 	{
-		private readonly IArticleService _service;
+		private readonly IStuffService _service;
 
-		public ArticleController(IArticleService service)
+		public StuffController(IStuffService service)
 		{
 			_service = service;
 		}
@@ -37,19 +37,19 @@ namespace FabricRestApi.Controllers
 		}
 
 		[HttpPost]
-		public void AddElement(ArticleBindingModel model)
+		public void AddElement(StuffBindingModel model)
 		{
 			_service.AddElement(model);
 		}
 
 		[HttpPost]
-		public void UpdElement(ArticleBindingModel model)
+		public void UpdElement(StuffBindingModel model)
 		{
 			_service.UpdElement(model);
 		}
 
 		[HttpPost]
-		public void DelElement(ArticleBindingModel model)
+		public void DelElement(StuffBindingModel model)
 		{
 			_service.DelElement(model.Id);
 		}
