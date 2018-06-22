@@ -10,9 +10,9 @@ namespace FabricService.ImplementationsBD
 {
 	public class PartServiceBD : IPartService
 	{
-		private AlexeysDbContext context;
+		private FabricDbContext context;
 
-		public PartServiceBD(AlexeysDbContext context)
+		public PartServiceBD(FabricDbContext context)
 		{
 			this.context = context;
 		}

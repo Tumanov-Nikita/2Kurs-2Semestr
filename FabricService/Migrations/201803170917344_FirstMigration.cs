@@ -8,38 +8,38 @@ namespace FabricService.Migrations
         public override void Up()
         {
             CreateTable(
-                "dbo.StuffParts",
+                "dbo.ArticleParts",
                 c => new
                     {
                         Id = c.Int(nullable: false, identity: true),
-                        StuffId = c.Int(nullable: false),
+                        ArticleId = c.Int(nullable: false),
                         PartId = c.Int(nullable: false),
                         Count = c.Int(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.Stuffs", t => t.StuffId, cascadeDelete: true)
+                .ForeignKey("dbo.Articles", t => t.ArticleId, cascadeDelete: true)
                 .ForeignKey("dbo.Parts", t => t.PartId, cascadeDelete: true)
-                .Index(t => t.StuffId)
+                .Index(t => t.ArticleId)
                 .Index(t => t.PartId);
             
             CreateTable(
-                "dbo.Stuffs",
+                "dbo.Articles",
                 c => new
                     {
                         Id = c.Int(nullable: false, identity: true),
-                        StuffName = c.String(nullable: false),
+                        ArticleName = c.String(nullable: false),
                         Cost = c.Decimal(nullable: false, precision: 18, scale: 2),
                     })
                 .PrimaryKey(t => t.Id);
             
             CreateTable(
-                "dbo.Bookings",
+                "dbo.Contracts",
                 c => new
                     {
                         Id = c.Int(nullable: false, identity: true),
                         CustomerId = c.Int(nullable: false),
-                        StuffId = c.Int(nullable: false),
-                        ExecuterId = c.Int(),
+                        ArticleId = c.Int(nullable: false),
+                        BuilderId = c.Int(),
                         Count = c.Int(nullable: false),
                         Cost = c.Decimal(nullable: false, precision: 18, scale: 2),
                         Status = c.Int(nullable: false),
@@ -47,19 +47,19 @@ namespace FabricService.Migrations
                         DateBuilt = c.DateTime(),
                     })
                 .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.Stuffs", t => t.StuffId, cascadeDelete: true)
-                .ForeignKey("dbo.Executers", t => t.ExecuterId)
+                .ForeignKey("dbo.Articles", t => t.ArticleId, cascadeDelete: true)
+                .ForeignKey("dbo.Builders", t => t.BuilderId)
                 .ForeignKey("dbo.Customers", t => t.CustomerId, cascadeDelete: true)
                 .Index(t => t.CustomerId)
-                .Index(t => t.StuffId)
-                .Index(t => t.ExecuterId);
+                .Index(t => t.ArticleId)
+                .Index(t => t.BuilderId);
             
             CreateTable(
-                "dbo.Executers",
+                "dbo.Builders",
                 c => new
                     {
                         Id = c.Int(nullable: false, identity: true),
-                        ExecuterFIO = c.String(nullable: false),
+                        BuilderFIO = c.String(nullable: false),
                     })
                 .PrimaryKey(t => t.Id);
             
@@ -111,26 +111,26 @@ namespace FabricService.Migrations
         {
             DropForeignKey("dbo.StorageParts", "StorageId", "dbo.Storages");
             DropForeignKey("dbo.StorageParts", "PartId", "dbo.Parts");
-            DropForeignKey("dbo.StuffParts", "PartId", "dbo.Parts");
-            DropForeignKey("dbo.Bookings", "CustomerId", "dbo.Customers");
-            DropForeignKey("dbo.Bookings", "ExecuterId", "dbo.Executers");
-            DropForeignKey("dbo.Bookings", "StuffId", "dbo.Stuffs");
-            DropForeignKey("dbo.StuffParts", "StuffId", "dbo.Stuffs");
+            DropForeignKey("dbo.ArticleParts", "PartId", "dbo.Parts");
+            DropForeignKey("dbo.Contracts", "CustomerId", "dbo.Customers");
+            DropForeignKey("dbo.Contracts", "BuilderId", "dbo.Builders");
+            DropForeignKey("dbo.Contracts", "ArticleId", "dbo.Articles");
+            DropForeignKey("dbo.ArticleParts", "ArticleId", "dbo.Articles");
             DropIndex("dbo.StorageParts", new[] { "PartId" });
             DropIndex("dbo.StorageParts", new[] { "StorageId" });
-            DropIndex("dbo.Bookings", new[] { "ExecuterId" });
-            DropIndex("dbo.Bookings", new[] { "StuffId" });
-            DropIndex("dbo.Bookings", new[] { "CustomerId" });
-            DropIndex("dbo.StuffParts", new[] { "PartId" });
-            DropIndex("dbo.StuffParts", new[] { "StuffId" });
+            DropIndex("dbo.Contracts", new[] { "BuilderId" });
+            DropIndex("dbo.Contracts", new[] { "ArticleId" });
+            DropIndex("dbo.Contracts", new[] { "CustomerId" });
+            DropIndex("dbo.ArticleParts", new[] { "PartId" });
+            DropIndex("dbo.ArticleParts", new[] { "ArticleId" });
             DropTable("dbo.Storages");
             DropTable("dbo.StorageParts");
             DropTable("dbo.Parts");
             DropTable("dbo.Customers");
-            DropTable("dbo.Executers");
-            DropTable("dbo.Bookings");
-            DropTable("dbo.Stuffs");
-            DropTable("dbo.StuffParts");
+            DropTable("dbo.Builders");
+            DropTable("dbo.Contracts");
+            DropTable("dbo.Articles");
+            DropTable("dbo.ArticleParts");
         }
     }
 }

@@ -1,17 +1,21 @@
-﻿namespace FabricService.ViewModels
+﻿using System.Runtime.Serialization;
+
+namespace FabricService.ViewModels
 {
-    public class CustomerBookingsModel
+    [DataContract]
+    public class CustomerContractsModel
     {
+        [DataMember]
         public string CustomerName { get; set; }
-
+        [DataMember]
         public string DateCreate { get; set; }
-
-        public string StuffName { get; set; }
-
+        [DataMember]
+        public string ArticleName { get; set; }
+        [DataMember]
         public int Count { get; set; }
-
+        [DataMember]
         public decimal Cost { get; set; }
-
+        [DataMember]
         public string Status { get; set; }
     }
 }

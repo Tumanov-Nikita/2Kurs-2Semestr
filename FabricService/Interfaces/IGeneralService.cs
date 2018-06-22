@@ -10,15 +10,15 @@ namespace FabricService.Interfaces
 {
     public interface IGeneralService
     {
-        List<BookingViewModel> GetList();
+        List<ContractViewModel> GetList();
 
-        void CreateBooking(BookingBindingModel model);
+        void CreateContract(ContractBindingModel model);
 
-        void TakeBookingInWork(BookingBindingModel model);
+        void TakeContractInWork(ContractBindingModel model);
 
-        void FinishBooking(int id);
+        void FinishContract(int id);
 
-        void PayBooking(int id);
+        void PayContract(int id);
 
         void PutPartOnStorage(StoragePartBindingModel model);
 

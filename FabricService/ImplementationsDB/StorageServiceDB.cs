@@ -10,9 +10,9 @@ namespace FabricService.ImplementationsBD
 {
 	public class StorageServiceBD : IStorageService
 	{
-		private AlexeysDbContext context;
+		private FabricDbContext context;
 
-		public StorageServiceBD(AlexeysDbContext context)
+		public StorageServiceBD(FabricDbContext context)
 		{
 			this.context = context;
 		}

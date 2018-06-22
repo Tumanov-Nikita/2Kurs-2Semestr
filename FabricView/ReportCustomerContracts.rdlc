@@ -11,14 +11,14 @@
     </DataSource>
   </DataSources>
   <DataSets>
-    <DataSet Name="DataSetBookings">
+    <DataSet Name="DataSetContracts">
       <Query>
         <DataSourceName>FabricServiceViewModels</DataSourceName>
         <CommandText>/* Local Query */</CommandText>
       </Query>
       <Fields>
-        <Field Name="StuffName">
-          <DataField>StuffName</DataField>
+        <Field Name="ArticleName">
+          <DataField>ArticleName</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="Cost">
@@ -44,8 +44,8 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>FabricService.ViewModels</rd:DataSetName>
-        <rd:TableName>CustomerBookingsModel</rd:TableName>
-        <rd:ObjectDataSourceType>FabricService.ViewModels.CustomerBookingsModel, FabricService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
+        <rd:TableName>CustomerContractsModel</rd:TableName>
+        <rd:ObjectDataSourceType>FabricService.ViewModels.CustomerContractsModel, FabricService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
       </rd:DataSetInfo>
     </DataSet>
   </DataSets>
@@ -326,21 +326,21 @@
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="StuffName">
+                        <Textbox Name="ArticleName">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!StuffName.Value</Value>
+                                  <Value>=Fields!ArticleName.Value</Value>
                                   <Style />
                                 </TextRun>
                               </TextRuns>
                               <Style />
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>StuffName</rd:DefaultName>
+                          <rd:DefaultName>ArticleName</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>LightGrey</Color>
@@ -608,7 +608,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Sum(Fields!Cost.Value, "DataSetBookings")</Value>
+                                  <Value>=Sum(Fields!Cost.Value, "DataSetContracts")</Value>
                                   <Style />
                                 </TextRun>
                               </TextRuns>
@@ -657,7 +657,7 @@
                 </TablixMember>
               </TablixMembers>
             </TablixRowHierarchy>
-            <DataSetName>DataSetBookings</DataSetName>
+            <DataSetName>DataSetContracts</DataSetName>
             <Top>3.14854cm</Top>
             <Left>0.52599cm</Left>
             <Height>1.98203cm</Height>

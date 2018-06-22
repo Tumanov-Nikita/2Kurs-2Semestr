@@ -80,6 +80,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
@@ -90,40 +91,51 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BindingModels\MessageInfoBindingModel.cs" />
     <Compile Include="FabricDbContext.cs" />
-    <Compile Include="BindingModels\StuffBindingModel.cs" />
-    <Compile Include="BindingModels\StuffPartBindingModel.cs" />
-    <Compile Include="BindingModels\ExecuterBindingModel.cs" />
-    <Compile Include="BindingModels\BookingBindingModel.cs" />
+    <Compile Include="BindingModels\ArticleBindingModel.cs" />
+    <Compile Include="BindingModels\ArticlePartBindingModel.cs" />
+    <Compile Include="BindingModels\BuilderBindingModel.cs" />
+    <Compile Include="BindingModels\ContractBindingModel.cs" />
     <Compile Include="BindingModels\CustomerBindingModel.cs" />
     <Compile Include="BindingModels\PartBindingModel.cs" />
     <Compile Include="BindingModels\ReportBindingModel.cs" />
     <Compile Include="BindingModels\StorageBindingModel.cs" />
     <Compile Include="BindingModels\StoragePartBindingModel.cs" />
     <Compile Include="DataListSingleton.cs" />
-    <Compile Include="ImplementationsDB\StuffServiceDB.cs" />
-    <Compile Include="ImplementationsDB\ExecuterServiceDB.cs" />
+    <Compile Include="ImplementationsDB\ArticleServiceDB.cs" />
+    <Compile Include="ImplementationsDB\BuilderServiceDB.cs" />
     <Compile Include="ImplementationsDB\CustomerServiceDB.cs" />
     <Compile Include="ImplementationsDB\GeneralServiceDB.cs" />
+    <Compile Include="ImplementationsDB\MessageInfoServiceBD.cs" />
     <Compile Include="ImplementationsDB\PartServiceDB.cs" />
     <Compile Include="ImplementationsDB\ReportServiceBD.cs" />
     <Compile Include="ImplementationsDB\StorageServiceDB.cs" />
-    <Compile Include="ImplementationsList\StuffServiceList.cs" />
-    <Compile Include="ImplementationsList\ExecuterServiceList.cs" />
+    <Compile Include="ImplementationsList\ArticleServiceList.cs" />
+    <Compile Include="ImplementationsList\BuilderServiceList.cs" />
     <Compile Include="ImplementationsList\CustomerServiceList.cs" />
     <Compile Include="ImplementationsList\GeneralServiceList.cs" />
     <Compile Include="ImplementationsList\PartServiceList.cs" />
     <Compile Include="ImplementationsList\StorageServiceList.cs" />
-    <Compile Include="Interfaces\IStuffService.cs" />
-    <Compile Include="Interfaces\IExecuterService.cs" />
+    <Compile Include="Interfaces\IArticleService.cs" />
+    <Compile Include="Interfaces\IBuilderService.cs" />
     <Compile Include="Interfaces\ICustomerService.cs" />
     <Compile Include="Interfaces\IGeneralService.cs" />
+    <Compile Include="Interfaces\IMessageInfoService.cs" />
     <Compile Include="Interfaces\IPartService.cs" />
     <Compile Include="Interfaces\IReportService.cs" />
     <Compile Include="Interfaces\IStorageService.cs" />
     <Compile Include="Migrations\201803170917344_FirstMigration.cs" />
     <Compile Include="Migrations\201803170917344_FirstMigration.Designer.cs">
       <DependentUpon>201803170917344_FirstMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806121058572_AddFieldInCustomer.cs" />
+    <Compile Include="Migrations\201806121058572_AddFieldInCustomer.Designer.cs">
+      <DependentUpon>201806121058572_AddFieldInCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806121154298_AddTableMessageInfo.cs" />
+    <Compile Include="Migrations\201806121154298_AddTableMessageInfo.Designer.cs">
+      <DependentUpon>201806121154298_AddTableMessageInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -133,12 +145,13 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
-    <Compile Include="ViewModels\StuffPartViewModel.cs" />
-    <Compile Include="ViewModels\StuffViewModel.cs" />
-    <Compile Include="ViewModels\ExecuterViewModel.cs" />
-    <Compile Include="ViewModels\BookingViewModel.cs" />
+    <Compile Include="ViewModels\ArticlePartViewModel.cs" />
+    <Compile Include="ViewModels\ArticleViewModel.cs" />
+    <Compile Include="ViewModels\BuilderViewModel.cs" />
+    <Compile Include="ViewModels\ContractViewModel.cs" />
     <Compile Include="ViewModels\CustomerContractsModel.cs" />
     <Compile Include="ViewModels\CustomerViewModel.cs" />
+    <Compile Include="ViewModels\MessageInfoViewModel.cs" />
     <Compile Include="ViewModels\PartViewModel.cs" />
     <Compile Include="ViewModels\StoragePartViewModel.cs" />
     <Compile Include="ViewModels\StoragesLoadViewModel.cs" />
@@ -158,6 +171,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201803170917344_FirstMigration.resx">
       <DependentUpon>201803170917344_FirstMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806121058572_AddFieldInCustomer.resx">
+      <DependentUpon>201806121058572_AddFieldInCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806121154298_AddTableMessageInfo.resx">
+      <DependentUpon>201806121154298_AddTableMessageInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

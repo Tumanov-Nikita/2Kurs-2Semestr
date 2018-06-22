@@ -102,41 +102,41 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="APIClient.cs" />
-    <Compile Include="FormStuff.cs">
+    <Compile Include="FormArticle.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormStuff.Designer.cs">
-      <DependentUpon>FormStuff.cs</DependentUpon>
+    <Compile Include="FormArticle.Designer.cs">
+      <DependentUpon>FormArticle.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormStuffPart.cs">
+    <Compile Include="FormArticlePart.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormStuffPart.Designer.cs">
-      <DependentUpon>FormStuffPart.cs</DependentUpon>
+    <Compile Include="FormArticlePart.Designer.cs">
+      <DependentUpon>FormArticlePart.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormStuffs.cs">
+    <Compile Include="FormArticles.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormStuffs.Designer.cs">
-      <DependentUpon>FormStuffs.cs</DependentUpon>
+    <Compile Include="FormArticles.Designer.cs">
+      <DependentUpon>FormArticles.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormExecuter.cs">
+    <Compile Include="FormBuilder.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormExecuter.Designer.cs">
-      <DependentUpon>FormExecuter.cs</DependentUpon>
+    <Compile Include="FormBuilder.Designer.cs">
+      <DependentUpon>FormBuilder.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormExecuters.cs">
+    <Compile Include="FormBuilders.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormExecuters.Designer.cs">
-      <DependentUpon>FormExecuters.cs</DependentUpon>
+    <Compile Include="FormBuilders.Designer.cs">
+      <DependentUpon>FormBuilders.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormCreateBooking.cs">
+    <Compile Include="FormCreateContract.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCreateBooking.Designer.cs">
-      <DependentUpon>FormCreateBooking.cs</DependentUpon>
+    <Compile Include="FormCreateContract.Designer.cs">
+      <DependentUpon>FormCreateContract.cs</DependentUpon>
     </Compile>
     <Compile Include="FormCustomer.cs">
       <SubType>Form</SubType>
@@ -144,11 +144,11 @@
     <Compile Include="FormCustomer.Designer.cs">
       <DependentUpon>FormCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormCustomerBookings.cs">
+    <Compile Include="FormCustomerContracts.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCustomerBookings.Designer.cs">
-      <DependentUpon>FormCustomerBookings.cs</DependentUpon>
+    <Compile Include="FormCustomerContracts.Designer.cs">
+      <DependentUpon>FormCustomerContracts.cs</DependentUpon>
     </Compile>
     <Compile Include="FormCustomers.cs">
       <SubType>Form</SubType>
@@ -161,6 +161,12 @@
     </Compile>
     <Compile Include="FormGeneral.Designer.cs">
       <DependentUpon>FormGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMails.Designer.cs">
+      <DependentUpon>FormMails.cs</DependentUpon>
     </Compile>
     <Compile Include="FormPart.cs">
       <SubType>Form</SubType>
@@ -198,37 +204,38 @@
     <Compile Include="FormStoragesLoad.Designer.cs">
       <DependentUpon>FormStoragesLoad.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTakeBookingInWork.cs">
+    <Compile Include="FormTakeContractInWork.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTakeBookingInWork.Designer.cs">
-      <DependentUpon>FormTakeBookingInWork.cs</DependentUpon>
+    <Compile Include="FormTakeContractInWork.Designer.cs">
+      <DependentUpon>FormTakeContractInWork.cs</DependentUpon>
     </Compile>
     <Compile Include="HttpErrorMessage.cs" />
+    <Compile Include="MailClient.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlServerTypes\Loader.cs" />
-    <EmbeddedResource Include="FormCustomerBookings.resx">
-      <DependentUpon>FormCustomerBookings.cs</DependentUpon>
+    <EmbeddedResource Include="FormCustomerContracts.resx">
+      <DependentUpon>FormCustomerContracts.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ReportCustomerContracts.rdlc" />
-    <EmbeddedResource Include="FormStuff.resx">
-      <DependentUpon>FormStuff.cs</DependentUpon>
+    <EmbeddedResource Include="FormArticle.resx">
+      <DependentUpon>FormArticle.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormStuffPart.resx">
-      <DependentUpon>FormStuffPart.cs</DependentUpon>
+    <EmbeddedResource Include="FormArticlePart.resx">
+      <DependentUpon>FormArticlePart.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormStuffs.resx">
-      <DependentUpon>FormStuffs.cs</DependentUpon>
+    <EmbeddedResource Include="FormArticles.resx">
+      <DependentUpon>FormArticles.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormExecuter.resx">
-      <DependentUpon>FormExecuter.cs</DependentUpon>
+    <EmbeddedResource Include="FormBuilder.resx">
+      <DependentUpon>FormBuilder.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormExecuters.resx">
-      <DependentUpon>FormExecuters.cs</DependentUpon>
+    <EmbeddedResource Include="FormBuilders.resx">
+      <DependentUpon>FormBuilders.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCreateBooking.resx">
-      <DependentUpon>FormCreateBooking.cs</DependentUpon>
+    <EmbeddedResource Include="FormCreateContract.resx">
+      <DependentUpon>FormCreateContract.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormCustomer.resx">
       <DependentUpon>FormCustomer.cs</DependentUpon>
@@ -254,8 +261,8 @@
     <EmbeddedResource Include="FormStoragesLoad.resx">
       <DependentUpon>FormStoragesLoad.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormTakeBookingInWork.resx">
-      <DependentUpon>FormTakeBookingInWork.cs</DependentUpon>
+    <EmbeddedResource Include="FormTakeContractInWork.resx">
+      <DependentUpon>FormTakeContractInWork.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -268,7 +275,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
-    <None Include="Properties\DataSources\AlexeysShopService.ViewModels.CustomerContractsModel.datasource" />
+    <None Include="Properties\DataSources\FabricService.ViewModels.CustomerContractsModel.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

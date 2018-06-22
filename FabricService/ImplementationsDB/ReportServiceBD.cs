@@ -17,14 +17,14 @@ namespace FabricService.ImplementationsBD
 {
     public class ReportServiceBD : IReportService
     {
-        private AlexeysDbContext context;
+        private FabricDbContext context;
 
-        public ReportServiceBD(AlexeysDbContext context)
+        public ReportServiceBD(FabricDbContext context)
         {
             this.context = context;
         }
 
-        public void SaveStuffPrice(ReportBindingModel model)
+        public void SaveArticlePrice(ReportBindingModel model)
         {
             if (File.Exists(model.FileName))
             {
@@ -57,7 +57,7 @@ namespace FabricService.ImplementationsBD
                 //добавляем абзац в документ
                 range.InsertParagraphAfter();
 
-                var products = context.Stuffs.ToList();
+                var products = context.Articles.ToList();
                 //создаем таблицу
                 var paragraphTable = document.Paragraphs.Add(Type.Missing);
                 var rangeTable = paragraphTable.Range;
@@ -74,7 +74,7 @@ namespace FabricService.ImplementationsBD
 
                 for (int i = 0; i < products.Count; ++i)
                 {
-                    table.Cell(i + 1, 1).Range.Text = products[i].StuffName;
+                    table.Cell(i + 1, 1).Range.Text = products[i].ArticleName;
                     table.Cell(i + 1, 2).Range.Text = products[i].Cost.ToString();
                 }
                 //задаем границы таблицы
@@ -246,19 +246,19 @@ namespace FabricService.ImplementationsBD
             }
         }
 
-        public List<CustomerBookingsModel> GetCustomerBookings(ReportBindingModel model)
+        public List<CustomerContractsModel> GetCustomerContracts(ReportBindingModel model)
         {
-            return context.Bookings
+            return context.Contracts
                             .Include(rec => rec.Customer)
-                            .Include(rec => rec.Stuff)
+                            .Include(rec => rec.Article)
                             .Where(rec => rec.DateBegin >= model.DateFrom && rec.DateBegin <= model.DateTo)
-                            .Select(rec => new CustomerBookingsModel
+                            .Select(rec => new CustomerContractsModel
                             {
                                 CustomerName = rec.Customer.CustomerFIO,
                                 DateCreate = SqlFunctions.DateName("dd", rec.DateBegin) + " " +
                                             SqlFunctions.DateName("mm", rec.DateBegin) + " " +
                                             SqlFunctions.DateName("yyyy", rec.DateBegin),
-                                StuffName = rec.Stuff.StuffName,
+                                ArticleName = rec.Article.ArticleName,
                                 Count = rec.Count,
                                 Cost = rec.Cost,
                                 Status = rec.Status.ToString()
@@ -266,7 +266,7 @@ namespace FabricService.ImplementationsBD
                             .ToList();
         }
 
-        public void SaveCustomerBookings(ReportBindingModel model)
+        public void SaveCustomerContracts(ReportBindingModel model)
         {
             //из ресрусов получаем шрифт для кирилицы
             if (!File.Exists("TIMCYR.TTF"))
@@ -337,7 +337,7 @@ namespace FabricService.ImplementationsBD
                 HorizontalAlignment = Element.ALIGN_CENTER
             });
             //заполняем таблицу
-            var list = GetCustomerBookings(model);
+            var list = GetCustomerContracts(model);
             var fontForCells = new iTextSharp.text.Font(baseFont, 10);
             for (int i = 0; i < list.Count; i++)
             {
@@ -345,7 +345,7 @@ namespace FabricService.ImplementationsBD
                 table.AddCell(cell);
                 cell = new PdfPCell(new Phrase(list[i].DateCreate, fontForCells));
                 table.AddCell(cell);
-                cell = new PdfPCell(new Phrase(list[i].StuffName, fontForCells));
+                cell = new PdfPCell(new Phrase(list[i].ArticleName, fontForCells));
                 table.AddCell(cell);
                 cell = new PdfPCell(new Phrase(list[i].Count.ToString(), fontForCells));
                 cell.HorizontalAlignment = Element.ALIGN_RIGHT;
