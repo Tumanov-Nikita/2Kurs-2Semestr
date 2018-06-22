@@ -26,9 +26,9 @@ namespace FabricRestApi.Controllers
 		}
 
 		[HttpPost]
-		public IHttpActionResult GetCustomerBookings(ReportBindingModel model)
+		public IHttpActionResult GetCustomerContracts(ReportBindingModel model)
 		{
-			var list = _service.GetCustomerBookings(model);
+			var list = _service.GetCustomerContracts(model);
 			if (list == null)
 			{
 				InternalServerError(new Exception("Нет данных"));
@@ -37,9 +37,9 @@ namespace FabricRestApi.Controllers
 		}
 
 		[HttpPost]
-		public void SaveStuffPrice(ReportBindingModel model)
+		public void SaveArticlePrice(ReportBindingModel model)
 		{
-			_service.SaveStuffPrice(model);
+			_service.SaveArticlePrice(model);
 		}
 
 		[HttpPost]
@@ -49,9 +49,9 @@ namespace FabricRestApi.Controllers
 		}
 
 		[HttpPost]
-		public void SaveCustomerBookings(ReportBindingModel model)
+		public void SaveCustomerContracts(ReportBindingModel model)
 		{
-			_service.SaveCustomerBookings(model);
+			_service.SaveCustomerContracts(model);
 		}
 	}
 }

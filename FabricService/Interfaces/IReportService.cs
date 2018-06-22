@@ -6,14 +6,14 @@ namespace FabricService.Interfaces
 {
     public interface IReportService
     {
-        void SaveStuffPrice(ReportBindingModel model);
+        void SaveArticlePrice(ReportBindingModel model);
 
         List<StoragesLoadViewModel> GetStoragesLoad();
 
         void SaveStoragesLoad(ReportBindingModel model);
 
-        List<CustomerBookingsModel> GetCustomerBookings(ReportBindingModel model);
+        List<CustomerContractsModel> GetCustomerContracts(ReportBindingModel model);
 
-        void SaveCustomerBookings(ReportBindingModel model);
+        void SaveCustomerContracts(ReportBindingModel model);
     }
 }

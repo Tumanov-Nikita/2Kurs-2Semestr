@@ -5,14 +5,14 @@ namespace FabricService.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<FabricService.AlexeysDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<FabricService.FabricDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(FabricService.AlexeysDbContext context)
+        protected override void Seed(FabricService.FabricDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

@@ -15,7 +15,9 @@ namespace FabricModel
 		[Required]
 		public string CustomerFIO { get; set; }
 
-		[ForeignKey("CustomerId")]
-		public virtual List<Booking> Bookings { get; set; }
+        public string Mail { get; set; }
+
+        [ForeignKey("CustomerId")]
+		public virtual List<Contract> Contracts { get; set; }
 	}
 }

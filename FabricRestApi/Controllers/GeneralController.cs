@@ -26,27 +26,27 @@ namespace FabricRestApi.Controllers
 		}
 
 		[HttpPost]
-		public void CreateBooking(BookingBindingModel model)
+		public void CreateContract(ContractBindingModel model)
 		{
-			_service.CreateBooking(model);
+			_service.CreateContract(model);
 		}
 
 		[HttpPost]
-		public void TakeBookingInWork(BookingBindingModel model)
+		public void TakeContractInWork(ContractBindingModel model)
 		{
-			_service.TakeBookingInWork(model);
+			_service.TakeContractInWork(model);
 		}
 
 		[HttpPost]
-		public void FinishBooking(BookingBindingModel model)
+		public void FinishContract(ContractBindingModel model)
 		{
-			_service.FinishBooking(model.Id);
+			_service.FinishContract(model.Id);
 		}
 
 		[HttpPost]
-		public void PayBooking(BookingBindingModel model)
+		public void PayContract(ContractBindingModel model)
 		{
-			_service.PayBooking(model.Id);
+			_service.PayContract(model.Id);
 		}
 
 		[HttpPost]

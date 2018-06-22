@@ -18,7 +18,7 @@ namespace FabricView
         {
             try
             {
-                List<BookingViewModel> list = Task.Run(() => APIClient.GetRequestData<List<BookingViewModel>>("api/General/GetList")).Result;
+                List<ContractViewModel> list = Task.Run(() => APIClient.GetRequestData<List<ContractViewModel>>("api/General/GetList")).Result;
                 if (list != null)
                 {
                     dataGridView.DataSource = list;
@@ -53,7 +53,7 @@ namespace FabricView
 
         private void изделияToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var form = new FormStuffs();
+            var form = new FormArticles();
             form.ShowDialog();
         }
 
@@ -65,7 +65,7 @@ namespace FabricView
 
         private void сотрудникиToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var form = new FormExecuters();
+            var form = new FormBuilders();
             form.ShowDialog();
         }
 
@@ -75,17 +75,17 @@ namespace FabricView
             form.ShowDialog();
         }
 
-        private void buttonCreateBooking_Click(object sender, EventArgs e)
+        private void buttonCreateContract_Click(object sender, EventArgs e)
         {
-            var form = new FormCreateBooking();
+            var form = new FormCreateContract();
             form.ShowDialog();
         }
 
-        private void buttonTakeBookingInWork_Click(object sender, EventArgs e)
+        private void buttonTakeContractInWork_Click(object sender, EventArgs e)
         {
             if (dataGridView.SelectedRows.Count == 1)
             {
-                var form = new FormTakeBookingInWork
+                var form = new FormTakeContractInWork
                 {
                     Id = Convert.ToInt32(dataGridView.SelectedRows[0].Cells[0].Value)
                 };
@@ -93,13 +93,13 @@ namespace FabricView
             }
         }
 
-        private void buttonBookingReady_Click(object sender, EventArgs e)
+        private void buttonContractReady_Click(object sender, EventArgs e)
         {
             if (dataGridView.SelectedRows.Count == 1)
             {
                 int id = Convert.ToInt32(dataGridView.SelectedRows[0].Cells[0].Value);
 
-                Task task = Task.Run(() => APIClient.PostRequestData("api/General/FinishBooking", new BookingBindingModel
+                Task task = Task.Run(() => APIClient.PostRequestData("api/General/FinishContract", new ContractBindingModel
                 {
                     Id = id
                 }));
@@ -119,13 +119,13 @@ namespace FabricView
             }
         }
 
-        private void buttonPayBooking_Click(object sender, EventArgs e)
+        private void buttonPayContract_Click(object sender, EventArgs e)
         {
             if (dataGridView.SelectedRows.Count == 1)
             {
                 int id = Convert.ToInt32(dataGridView.SelectedRows[0].Cells[0].Value);
 
-                Task task = Task.Run(() => APIClient.PostRequestData("api/General/PayBooking", new BookingBindingModel
+                Task task = Task.Run(() => APIClient.PostRequestData("api/General/PayContract", new ContractBindingModel
                 {
                     Id = id
                 }));
@@ -159,7 +159,7 @@ namespace FabricView
             if (sfd.ShowDialog() == DialogResult.OK)
             {
                 string fileName = sfd.FileName;
-                Task task = Task.Run(() => APIClient.PostRequestData("api/Report/SaveStuffPrice", new ReportBindingModel
+                Task task = Task.Run(() => APIClient.PostRequestData("api/Report/SaveArticlePrice", new ReportBindingModel
                 {
                     FileName = fileName
                 }));
@@ -187,7 +187,13 @@ namespace FabricView
 
         private void контрактыToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var form = new FormCustomerBookings();
+            var form = new FormCustomerContracts();
+            form.ShowDialog();
+        }
+
+        private void письмаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var form = new FormMails();
             form.ShowDialog();
         }
     }
