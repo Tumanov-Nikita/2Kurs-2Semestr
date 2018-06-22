@@ -93,17 +93,17 @@
     <Compile Include="FormParts.Designer.cs">
       <DependentUpon>FormParts.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormBuilder.cs">
+    <Compile Include="FormExecuter.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormBuilder.Designer.cs">
-      <DependentUpon>FormBuilder.cs</DependentUpon>
+    <Compile Include="FormExecuter.Designer.cs">
+      <DependentUpon>FormExecuter.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormxBuilders.cs">
+    <Compile Include="Formxecuters.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormxBuilders.Designer.cs">
-      <DependentUpon>FormxBuilders.cs</DependentUpon>
+    <Compile Include="Formxecuters.Designer.cs">
+      <DependentUpon>Formxecuters.cs</DependentUpon>
     </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
@@ -173,11 +173,11 @@
     <EmbeddedResource Include="FormParts.resx">
       <DependentUpon>FormParts.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormBuilder.resx">
-      <DependentUpon>FormBuilder.cs</DependentUpon>
+    <EmbeddedResource Include="FormExecuter.resx">
+      <DependentUpon>FormExecuter.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormxBuilders.resx">
-      <DependentUpon>FormxBuilders.cs</DependentUpon>
+    <EmbeddedResource Include="Formxecuters.resx">
+      <DependentUpon>Formxecuters.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
@@ -211,7 +211,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="FormPutOnStorage.resx">
       <DependentUpon>FormPutOnStorage.cs</DependentUpon>

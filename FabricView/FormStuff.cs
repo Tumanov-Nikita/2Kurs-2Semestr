@@ -156,7 +156,7 @@ namespace FabricView
                         Id = productComponents[i].Id,
                         StuffId = productComponents[i].StuffId,
                         PartId = productComponents[i].PartId,
-                        Count = productComponents[i].Amount
+                        Count = productComponents[i].Count
                     });
                 }
                 if (id.HasValue)
