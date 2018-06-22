@@ -4,11 +4,12 @@ using FabricService.Interfaces;
 using FabricService.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 
 namespace FabricService.ImplementationsBD
 {
-    public class StuffServiceBD : IStuffService
+	public class StuffServiceBD : IStuffService
 	{
 		private FabricDbContext context;
 

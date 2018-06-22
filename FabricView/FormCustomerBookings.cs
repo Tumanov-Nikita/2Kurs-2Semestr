@@ -1,24 +1,17 @@
 ﻿using FabricService.BindingModels;
-using FabricService.Interfaces;
+using FabricService.ViewModels;
 using Microsoft.Reporting.WinForms;
 using System;
+using System.Collections.Generic;
 using System.Windows.Forms;
-using Unity;
-using Unity.Attributes;
 
 namespace FabricView
 {
 	public partial class FormCustomerBookings : Form
 	{
-		[Dependency]
-		public new IUnityContainer Container { get; set; }
-
-		private readonly IReportService service;
-
-		public FormCustomerBookings(IReportService service)
+		public FormCustomerBookings()
 		{
 			InitializeComponent();
-			this.service = service;
 		}
 
 		private void buttonMake_Click(object sender, EventArgs e)
@@ -35,13 +28,21 @@ namespace FabricView
 											" по " + dateTimePickerTo.Value.ToShortDateString());
 				reportViewer.LocalReport.SetParameters(parameter);
 
-				var dataSource = service.GetCustomerBookings(new ReportBindingModel
+				var response = APIClient.PostRequest("api/Report/GetCustomerBookings", new ReportBindingModel
 				{
 					DateFrom = dateTimePickerFrom.Value,
 					DateTo = dateTimePickerTo.Value
 				});
-				ReportDataSource source = new ReportDataSource("DataSetBookings", dataSource);
-				reportViewer.LocalReport.DataSources.Add(source);
+				if (response.Result.IsSuccessStatusCode)
+				{
+					var dataSource = APIClient.GetElement<List<CustomerBookingsModel>>(response);
+					ReportDataSource source = new ReportDataSource("DataSetBookings", dataSource);
+					reportViewer.LocalReport.DataSources.Add(source);
+				}
+				else
+				{
+					throw new Exception(APIClient.GetError(response));
+				}
 
 				reportViewer.RefreshReport();
 			}
@@ -66,13 +67,20 @@ namespace FabricView
 			{
 				try
 				{
-					service.SaveCustomerBookings(new ReportBindingModel
+					var response = APIClient.PostRequest("api/Report/SaveCustomerBookings", new ReportBindingModel
 					{
 						FileName = sfd.FileName,
 						DateFrom = dateTimePickerFrom.Value,
 						DateTo = dateTimePickerTo.Value
 					});
-					MessageBox.Show("Выполнено", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
+					if (response.Result.IsSuccessStatusCode)
+					{
+						MessageBox.Show("Выполнено", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
+					}
+					else
+					{
+						throw new Exception(APIClient.GetError(response));
+					}
 				}
 				catch (Exception ex)
 				{
@@ -82,4 +90,3 @@ namespace FabricView
 		}
 	}
 }
-

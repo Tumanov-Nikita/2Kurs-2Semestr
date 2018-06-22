@@ -130,7 +130,7 @@
             // 
             this.прайсСудовToolStripMenuItem.Name = "прайсСудовToolStripMenuItem";
             this.прайсСудовToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
-            this.прайсСудовToolStripMenuItem.Text = "Прайс судов";
+            this.прайсСудовToolStripMenuItem.Text = "Список деталей";
             this.прайсСудовToolStripMenuItem.Click += new System.EventHandler(this.прайсСудовToolStripMenuItem_Click_1);
             // 
             // загруженностьСкладовToolStripMenuItem
@@ -144,7 +144,7 @@
             // 
             this.контрактыToolStripMenuItem.Name = "контрактыToolStripMenuItem";
             this.контрактыToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
-            this.контрактыToolStripMenuItem.Text = "Контракты";
+            this.контрактыToolStripMenuItem.Text = "Заказы";
             this.контрактыToolStripMenuItem.Click += new System.EventHandler(this.контрактыToolStripMenuItem_Click);
             // 
             // buttonPayOrder

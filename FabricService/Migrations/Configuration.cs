@@ -1,4 +1,4 @@
-namespace FabricService.Migrations
+namespace AlexeysShopService.Migrations
 {
     using System;
     using System.Data.Entity;

@@ -103,7 +103,7 @@
             this.Controls.Add(this.labelComponent);
             this.Name = "FormStuffPart";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Деталь самолёта";
+            this.Text = "Деталь";
             this.Load += new System.EventHandler(this.FormStuffPart_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

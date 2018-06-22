@@ -1,92 +1,89 @@
 ﻿using FabricService.BindingModels;
-using FabricService.Interfaces;
 using FabricService.ViewModels;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using Unity;
-using Unity.Attributes;
 
 namespace FabricView
 {
-    public partial class FormTakeBookingInWork : Form
-    {
-        [Dependency]
-        public new IUnityContainer Container { get; set; }
+	public partial class FormTakeBookingInWork : Form
+	{
+		public int Id { set { id = value; } }
 
-        public int Id { set { id = value; } }
+		private int? id;
 
-        private readonly IExecuterService serviceI;
+		public FormTakeBookingInWork()
+		{
+			InitializeComponent();
+		}
 
-        private readonly IGeneralService serviceM;
+		private void FormTakeBookingInWork_Load(object sender, EventArgs e)
+		{
+			try
+			{
+				if (!id.HasValue)
+				{
+					MessageBox.Show("Не указан заказ", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+					Close();
+				}
+				var response = APIClient.GetRequest("api/Executer/GetList");
+				if (response.Result.IsSuccessStatusCode)
+				{
+					List<ExecuterViewModel> list = APIClient.GetElement<List<ExecuterViewModel>>(response);
+					if (list != null)
+					{
+						comboBoxExecuter.DisplayMember = "ExecuterFIO";
+						comboBoxExecuter.ValueMember = "Id";
+						comboBoxExecuter.DataSource = list;
+						comboBoxExecuter.SelectedItem = null;
+					}
+				}
+				else
+				{
+					throw new Exception(APIClient.GetError(response));
+				}
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			}
+		}
 
-        private int? id;
+		private void buttonSave_Click(object sender, EventArgs e)
+		{
+			if (comboBoxExecuter.SelectedValue == null)
+			{
+				MessageBox.Show("Выберите исполнителя", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				return;
+			}
+			try
+			{
+				var response = APIClient.PostRequest("api/General/TakeBookingInWork", new BookingBindingModel
+				{
+					Id = id.Value,
+					ExecuterId = Convert.ToInt32(comboBoxExecuter.SelectedValue)
+				});
+				if (response.Result.IsSuccessStatusCode)
+				{
+					MessageBox.Show("Сохранение прошло успешно", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+					DialogResult = DialogResult.OK;
+					Close();
+				}
+				else
+				{
+					throw new Exception(APIClient.GetError(response));
+				}
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			}
+		}
 
-        public FormTakeBookingInWork(IExecuterService serviceI, IGeneralService serviceM)
-        {
-            InitializeComponent();
-            this.serviceI = serviceI;
-            this.serviceM = serviceM;
-        }
-
-        private void FormTakeBookingInWork_Load(object sender, EventArgs e)
-        {
-            try
-            {
-                if (!id.HasValue)
-                {
-                    MessageBox.Show("Не указан заказ", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    Close();
-                }
-                List<ExecuterViewModel> listI = serviceI.GetList();
-                if (listI != null)
-                {
-                    comboBoxExecuter.DisplayMember = "ExecuterFIO";
-                    comboBoxExecuter.ValueMember = "Id";
-                    comboBoxExecuter.DataSource = listI;
-                    comboBoxExecuter.SelectedItem = null;
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private void buttonSave_Click(object sender, EventArgs e)
-        {
-            if (comboBoxExecuter.SelectedValue == null)
-            {
-                MessageBox.Show("Выберите исполнителя", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            try
-            {
-                serviceM.TakeBookingInWork(new BookingBindingModel
-                {
-                    Id = id.Value,
-                    ExecuterId = Convert.ToInt32(comboBoxExecuter.SelectedValue)
-                });
-                MessageBox.Show("Сохранение прошло успешно", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                DialogResult = DialogResult.OK;
-                Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private void buttonCancel_Click(object sender, EventArgs e)
-        {
-            DialogResult = DialogResult.Cancel;
-            Close();
-        }
-    }
+		private void buttonCancel_Click(object sender, EventArgs e)
+		{
+			DialogResult = DialogResult.Cancel;
+			Close();
+		}
+	}
 }

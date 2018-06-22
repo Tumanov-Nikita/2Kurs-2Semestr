@@ -1,87 +1,93 @@
 ﻿using FabricService.BindingModels;
-using FabricService.Interfaces;
 using FabricService.ViewModels;
 using System;
+using System.Net.Http;
+using System.Threading.Tasks;
 using System.Windows.Forms;
-using Unity;
-using Unity.Attributes;
 
 namespace FabricView
 {
-    public partial class FormExecuter : Form
-    {
-        [Dependency]
-        public new IUnityContainer Container { get; set; }
+	public partial class FormExecuter : Form
+	{
+		public int Id { set { id = value; } }
 
-        public int Id { set { id = value; } }
+		private int? id;
 
-        private readonly IExecuterService service;
+		public FormExecuter()
+		{
+			InitializeComponent();
+		}
 
-        private int? id;
+		private void FormExecuter_Load(object sender, EventArgs e)
+		{
+			if (id.HasValue)
+			{
+				try
+				{
+					var response = APIClient.GetRequest("api/Executer/Get/" + id.Value);
+					if (response.Result.IsSuccessStatusCode)
+					{
+						var Executer = APIClient.GetElement<ExecuterViewModel>(response);
+						textBoxFIO.Text = Executer.ExecuterFIO;
+					}
+					else
+					{
+						throw new Exception(APIClient.GetError(response));
+					}
+				}
+				catch (Exception ex)
+				{
+					MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				}
+			}
+		}
 
-        public FormExecuter(IExecuterService service)
-        {
-            InitializeComponent();
-            this.service = service;
-        }
+		private void buttonSave_Click(object sender, EventArgs e)
+		{
+			if (string.IsNullOrEmpty(textBoxFIO.Text))
+			{
+				MessageBox.Show("Заполните ФИО", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				return;
+			}
+			try
+			{
+				Task<HttpResponseMessage> response;
+				if (id.HasValue)
+				{
+					response = APIClient.PostRequest("api/Executer/UpdElement", new ExecuterBindingModel
+					{
+						Id = id.Value,
+						ExecuterFIO = textBoxFIO.Text
+					});
+				}
+				else
+				{
+					response = APIClient.PostRequest("api/Executer/AddElement", new ExecuterBindingModel
+					{
+						ExecuterFIO = textBoxFIO.Text
+					});
+				}
+				if (response.Result.IsSuccessStatusCode)
+				{
+					MessageBox.Show("Сохранение прошло успешно", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+					DialogResult = DialogResult.OK;
+					Close();
+				}
+				else
+				{
+					throw new Exception(APIClient.GetError(response));
+				}
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			}
+		}
 
-        private void FormExecuter_Load(object sender, EventArgs e)
-        {
-            if (id.HasValue)
-            {
-                try
-                {
-                    ExecuterViewModel view = service.GetElement(id.Value);
-                    if (view != null)
-                    {
-                        textBoxFIO.Text = view.ExecuterFIO;
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-        }
-
-        private void buttonSave_Click(object sender, EventArgs e)
-        {
-            if (string.IsNullOrEmpty(textBoxFIO.Text))
-            {
-                MessageBox.Show("Заполните ФИО", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            try
-            {
-                if (id.HasValue)
-                {
-                    service.UpdElement(new ExecuterBindingModel
-                    {
-                        Id = id.Value,
-                        ExecuterFIO = textBoxFIO.Text
-                    });
-                }
-                else
-                {
-                    service.AddElement(new ExecuterBindingModel
-                    {
-                        ExecuterFIO = textBoxFIO.Text
-                    });
-                }
-                MessageBox.Show("Сохранение прошло успешно", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                DialogResult = DialogResult.OK;
-                Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private void buttonCancel_Click(object sender, EventArgs e)
-        {
-            DialogResult = DialogResult.Cancel;
-            Close();
-        }
-    }
+		private void buttonCancel_Click(object sender, EventArgs e)
+		{
+			DialogResult = DialogResult.Cancel;
+			Close();
+		}
+	}
 }
