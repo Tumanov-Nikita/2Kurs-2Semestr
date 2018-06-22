@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FabricService.BindingModels
 {
-	[DataBooking]
+	[DataContract]
 	public class StuffBindingModel
     {
 		[DataMember]

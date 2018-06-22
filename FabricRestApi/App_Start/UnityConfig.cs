@@ -47,7 +47,7 @@ namespace FabricRestApi
 			// TODO: Register your type's mappings here.
 			// container.RegisterType<IProductRepository, ProductRepository>();
 
-			container.RegisterType<DbContext, FabricDbContext>(new HierarchicalLifetimeManager());
+			container.RegisterType<DbContext, AlexeysDbContext>(new HierarchicalLifetimeManager());
 			container.RegisterType<ICustomerService, CustomerServiceBD>(new HierarchicalLifetimeManager());
 			container.RegisterType<IPartService, PartServiceBD>(new HierarchicalLifetimeManager());
 			container.RegisterType<IExecuterService, ExecuterServiceBD>(new HierarchicalLifetimeManager());

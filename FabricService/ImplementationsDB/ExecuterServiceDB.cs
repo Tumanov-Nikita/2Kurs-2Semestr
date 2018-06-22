@@ -10,9 +10,9 @@ namespace FabricService.ImplementationsBD
 {
 	public class ExecuterServiceBD : IExecuterService
 	{
-		private FabricDbContext context;
+		private AlexeysDbContext context;
 
-		public ExecuterServiceBD(FabricDbContext context)
+		public ExecuterServiceBD(AlexeysDbContext context)
 		{
 			this.context = context;
 		}

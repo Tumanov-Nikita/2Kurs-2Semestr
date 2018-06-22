@@ -54,9 +54,9 @@
             this.labelCustomer.AutoSize = true;
             this.labelCustomer.Location = new System.Drawing.Point(12, 9);
             this.labelCustomer.Name = "labelCustomer";
-            this.labelCustomer.Size = new System.Drawing.Size(58, 13);
+            this.labelCustomer.Size = new System.Drawing.Size(46, 13);
             this.labelCustomer.TabIndex = 0;
-            this.labelCustomer.Text = "Заказчик:";
+            this.labelCustomer.Text = "Клиент:";
             // 
             // labelCount
             // 
@@ -148,7 +148,7 @@
             this.Controls.Add(this.labelStuff);
             this.Name = "FormCreateBooking";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Контракт на производство";
+            this.Text = "Заказ";
             this.Load += new System.EventHandler(this.FormCreateBooking_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

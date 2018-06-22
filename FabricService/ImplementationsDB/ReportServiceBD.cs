@@ -11,14 +11,15 @@ using System.Data.Entity;
 using System.Data.Entity.SqlServer;
 using System.IO;
 using System.Linq;
+using System.util;
 
 namespace FabricService.ImplementationsBD
 {
     public class ReportServiceBD : IReportService
     {
-        private FabricDbContext context;
+        private AlexeysDbContext context;
 
-        public ReportServiceBD(FabricDbContext context)
+        public ReportServiceBD(AlexeysDbContext context)
         {
             this.context = context;
         }

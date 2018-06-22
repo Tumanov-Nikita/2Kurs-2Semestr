@@ -48,9 +48,9 @@
             this.labelExecuter.AutoSize = true;
             this.labelExecuter.Location = new System.Drawing.Point(12, 9);
             this.labelExecuter.Name = "labelExecuter";
-            this.labelExecuter.Size = new System.Drawing.Size(77, 13);
+            this.labelExecuter.Size = new System.Drawing.Size(56, 13);
             this.labelExecuter.TabIndex = 0;
-            this.labelExecuter.Text = "Исполнитель:";
+            this.labelExecuter.Text = "Инженер:";
             // 
             // buttonCancel
             // 
@@ -83,7 +83,7 @@
             this.Controls.Add(this.labelExecuter);
             this.Name = "FormTakeBookingInWork";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Приступить к производству";
+            this.Text = "Приступить к постройке";
             this.Load += new System.EventHandler(this.FormTakeBookingInWork_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

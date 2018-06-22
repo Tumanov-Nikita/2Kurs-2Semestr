@@ -11,9 +11,9 @@ namespace FabricService.ImplementationsBD
 {
 	public class StuffServiceBD : IStuffService
 	{
-		private FabricDbContext context;
+		private AlexeysDbContext context;
 
-		public StuffServiceBD(FabricDbContext context)
+		public StuffServiceBD(AlexeysDbContext context)
 		{
 			this.context = context;
 		}

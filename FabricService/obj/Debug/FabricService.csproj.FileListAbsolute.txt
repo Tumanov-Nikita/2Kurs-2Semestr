@@ -1,327 +1,448 @@
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\SqlServerTypes\x64\msvcr120.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\SqlServerTypes\x86\msvcr120.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\AlexeysShopService.dll.config
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\AlexeysShopService.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\AlexeysShopService.pdb
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\AlexeysShop.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\EntityFramework.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\itextsharp.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.ReportViewer.Common.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.ReportViewer.Design.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.SqlServer.Types.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\EnvDTE.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\stdole.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\EnvDTE80.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\VSLangProj.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\VSLangProj80.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Newtonsoft.Json.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.MSXML.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\VSLangProj2.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\AlexeysShop.pdb
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\AlexeysShop.dll.config
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\EntityFramework.xml
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\itextsharp.xml
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\ru\Microsoft.VisualStudio.Data.Services.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\ru\Microsoft.VisualStudio.Data.Core.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\bin\Debug\ru\Microsoft.VisualStudio.GraphModel.resources.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\obj\Debug\FabricService.csprojAssemblyReference.cache
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\obj\Debug\AlexeysShopService.Properties.Resources.resources
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\obj\Debug\FabricService.csproj.GenerateResource.cache
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\obj\Debug\FabricService.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\obj\Debug\FabricService.csproj.CopyComplete
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\obj\Debug\AlexeysShopService.dll
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\obj\Debug\AlexeysShopService.pdb
-C:\Users\user\Desktop\Лаба 13\AlexeysShop\AlexeysShopService\obj\Debug\FabricService.Migrations.FirstMigration.resources
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\SqlServerTypes\x64\msvcr120.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\SqlServerTypes\x86\msvcr120.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\AlexeysShopService.dll.config
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\AlexeysShopService.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\AlexeysShopService.pdb
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\AlexeysShop.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\EntityFramework.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\itextsharp.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.ReportViewer.Common.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.ReportViewer.Design.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.SqlServer.Types.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\EnvDTE.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\stdole.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\EnvDTE80.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\VSLangProj.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\VSLangProj80.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.MSXML.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\VSLangProj2.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\AlexeysShop.pdb
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\AlexeysShop.dll.config
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\EntityFramework.xml
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\itextsharp.xml
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\ru\Microsoft.VisualStudio.Data.Services.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\bin\Debug\ru\Microsoft.VisualStudio.Data.Core.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\obj\Debug\FabricService.csprojAssemblyReference.cache
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\obj\Debug\AlexeysShopService.Properties.Resources.resources
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\obj\Debug\FabricService.csproj.GenerateResource.cache
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\obj\Debug\FabricService.csproj.CoreCompileInputs.cache
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\obj\Debug\FabricService.csproj.CopyComplete
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\obj\Debug\AlexeysShopService.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\obj\Debug\AlexeysShopService.pdb
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\AlexeysShopService\obj\Debug\AlexeysShopService.Migrations.FirstMigration.resources
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\SqlServerTypes\x64\msvcr120.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\SqlServerTypes\x86\msvcr120.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\FabricService.dll.config
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\FabricService.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\FabricService.pdb
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\EntityFramework.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Fabric.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\itextsharp.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.Common.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.Design.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.SqlServer.Types.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\EnvDTE.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\stdole.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\EnvDTE80.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\VSLangProj.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\VSLangProj80.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.MSXML.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\VSLangProj2.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Fabric.pdb
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Fabric.dll.config
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\EntityFramework.xml
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\itextsharp.xml
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.VisualStudio.Data.Services.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.VisualStudio.Data.Core.resources.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\obj\Debug\FabricService.csprojAssemblyReference.cache
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\obj\Debug\AlexeysShopService.Migrations.FirstMigration.resources
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\obj\Debug\FabricService.Properties.Resources.resources
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\obj\Debug\FabricService.csproj.GenerateResource.cache
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\obj\Debug\FabricService.csproj.CoreCompileInputs.cache
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\obj\Debug\FabricService.csproj.CopyComplete
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\obj\Debug\FabricService.dll
-C:\Users\Никита\Desktop\AbstractShop-LabWork13 GG\AlexeysShop\FabricService\obj\Debug\FabricService.pdb
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\obj\Debug\FabricService.csprojAssemblyReference.cache
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\obj\Debug\FabricService.Properties.Resources.resources
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\obj\Debug\FabricService.csproj.GenerateResource.cache
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\obj\Debug\FabricService.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\obj\Debug\FabricService.Migrations.FirstMigration.resources
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\FabricService.dll.config
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\FabricService.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\FabricService.pdb
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\EntityFramework.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Fabric.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\itextsharp.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\EnvDTE.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\stdole.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\EnvDTE80.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\VSLangProj.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\VSLangProj80.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\VSLangProj2.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Fabric.pdb
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Fabric.dll.config
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\EntityFramework.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\itextsharp.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\obj\Debug\FabricService.csproj.CopyComplete
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\obj\Debug\FabricService.dll
+C:\Users\Никита\Desktop\Лаба 14\AlexeysShop\FabricService\obj\Debug\FabricService.pdb
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\obj\Debug\FabricService.csprojAssemblyReference.cache
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\obj\Debug\FabricService.Migrations.FirstMigration.resources
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\obj\Debug\FabricService.Properties.Resources.resources
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\obj\Debug\FabricService.csproj.GenerateResource.cache
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\obj\Debug\FabricService.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\obj\Debug\FabricService.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\obj\Debug\FabricService.pdb
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\FabricService.dll.config
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\FabricService.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\FabricService.pdb
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\EntityFramework.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Fabric.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\itextsharp.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\EnvDTE.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\stdole.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\EnvDTE80.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\VSLangProj.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\VSLangProj80.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\VSLangProj2.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Fabric.pdb
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Fabric.dll.config
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\EntityFramework.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\itextsharp.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (2)\AlexeysShop\FabricService\obj\Debug\FabricService.csproj.CopyComplete
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\obj\Debug\FabricService.csprojAssemblyReference.cache
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\obj\Debug\FabricService.Migrations.FirstMigration.resources
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\obj\Debug\FabricService.Properties.Resources.resources
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\obj\Debug\FabricService.csproj.GenerateResource.cache
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\obj\Debug\FabricService.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\obj\Debug\FabricService.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\obj\Debug\FabricService.pdb
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\FabricService.dll.config
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\FabricService.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\FabricService.pdb
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\EntityFramework.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Fabric.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\itextsharp.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\EnvDTE.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\stdole.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\EnvDTE80.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\VSLangProj.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\VSLangProj80.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\VSLangProj2.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Fabric.pdb
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Fabric.dll.config
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\EntityFramework.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\itextsharp.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\Никита\Desktop\Лаба 14 — копия (3)\AlexeysShop\FabricService\obj\Debug\FabricService.csproj.CopyComplete
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\obj\Debug\FabricService.csprojAssemblyReference.cache
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\obj\Debug\FabricService.Migrations.FirstMigration.resources
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\obj\Debug\FabricService.Properties.Resources.resources
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\obj\Debug\FabricService.csproj.GenerateResource.cache
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\obj\Debug\FabricService.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\obj\Debug\FabricService.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\obj\Debug\FabricService.pdb
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\FabricService.dll.config
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\FabricService.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\FabricService.pdb
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\EntityFramework.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Fabric.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\itextsharp.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\EnvDTE.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\stdole.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\EnvDTE80.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\VSLangProj.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\VSLangProj80.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\VSLangProj2.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Fabric.pdb
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Fabric.dll.config
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\EntityFramework.xml
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\itextsharp.xml
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\bin\Debug\ru\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\Никита\Desktop\Ноут\AbstractShop-LabWork14 GG\AlexeysShop\FabricService\obj\Debug\FabricService.csproj.CopyComplete
