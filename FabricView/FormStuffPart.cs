@@ -46,7 +46,7 @@ namespace FabricView
             {
                 comboBoxComponent.Enabled = false;
                 comboBoxComponent.SelectedValue = model.PartId;
-                textBoxCount.Text = model.Count.ToString();
+                textBoxCount.Text = model.Amount.ToString();
             }
         }
 
@@ -70,12 +70,12 @@ namespace FabricView
                     {
                         PartId = Convert.ToInt32(comboBoxComponent.SelectedValue),
                         PartName = comboBoxComponent.Text,
-                        Count = Convert.ToInt32(textBoxCount.Text)
+                        Amount = Convert.ToInt32(textBoxCount.Text)
                     };
                 }
                 else
                 {
-                    model.Count = Convert.ToInt32(textBoxCount.Text);
+                    model.Amount = Convert.ToInt32(textBoxCount.Text);
                 }
                 MessageBox.Show("Сохранение прошло успешно", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 DialogResult = DialogResult.OK;

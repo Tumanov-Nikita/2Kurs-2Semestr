@@ -1,6 +1,6 @@
 ﻿namespace FabricView
 {
-    partial class FormBuilder
+    partial class FormExecuter
     {
         /// <summary>
         /// Required designer variable.

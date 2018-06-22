@@ -1,9 +1,9 @@
 ﻿namespace FabricService.BindingModels
 {
-    public class BuilderBindingModel
+    public class ExecuterBindingModel
     {
         public int Id { get; set; }
 
-        public string BuilderFIO { get; set; }
+        public string ExecuterFIO { get; set; }
     }
 }

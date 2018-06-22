@@ -7,77 +7,77 @@ using System.Collections.Generic;
 
 namespace FabricService.ImplementationsList
 {
-    public class BuilderServiceList : IBuilderService
+    public class ExecuterServiceList : IExecuterService
     {
         private DataListSingleton source;
 
-        public BuilderServiceList()
+        public ExecuterServiceList()
         {
             source = DataListSingleton.GetExample();
         }
 
-        public List<BuilderViewModel> GetList()
+        public List<ExecuterViewModel> GetList()
         {
-            List<BuilderViewModel> result = new List<BuilderViewModel>();
-            for (int i = 0; i < source.Builders.Count; ++i)
+            List<ExecuterViewModel> result = new List<ExecuterViewModel>();
+            for (int i = 0; i < source.Executers.Count; ++i)
             {
-                result.Add(new BuilderViewModel
+                result.Add(new ExecuterViewModel
                 {
-                    Id = source.Builders[i].Id,
-                    BuilderFIO = source.Builders[i].BuilderFIO
+                    Id = source.Executers[i].Id,
+                    ExecuterFIO = source.Executers[i].ExecuterFIO
                 });
             }
             return result;
         }
 
-        public BuilderViewModel GetElement(int id)
+        public ExecuterViewModel GetElement(int id)
         {
-            for (int i = 0; i < source.Builders.Count; ++i)
+            for (int i = 0; i < source.Executers.Count; ++i)
             {
-                if (source.Builders[i].Id == id)
+                if (source.Executers[i].Id == id)
                 {
-                    return new BuilderViewModel
+                    return new ExecuterViewModel
                     {
-                        Id = source.Builders[i].Id,
-                        BuilderFIO = source.Builders[i].BuilderFIO
+                        Id = source.Executers[i].Id,
+                        ExecuterFIO = source.Executers[i].ExecuterFIO
                     };
                 }
             }
             throw new Exception("Элемент не найден");
         }
 
-        public void AddElement(BuilderBindingModel model)
+        public void AddElement(ExecuterBindingModel model)
         {
             int maxId = 0;
-            for (int i = 0; i < source.Builders.Count; ++i)
+            for (int i = 0; i < source.Executers.Count; ++i)
             {
-                if (source.Builders[i].Id > maxId)
+                if (source.Executers[i].Id > maxId)
                 {
-                    maxId = source.Builders[i].Id;
+                    maxId = source.Executers[i].Id;
                 }
-                if (source.Builders[i].BuilderFIO == model.BuilderFIO)
+                if (source.Executers[i].ExecuterFIO == model.ExecuterFIO)
                 {
                     throw new Exception("Уже есть сотрудник с таким ФИО");
                 }
             }
-            source.Builders.Add(new Builder
+            source.Executers.Add(new Executer
             {
                 Id = maxId + 1,
-                BuilderFIO = model.BuilderFIO
+                ExecuterFIO = model.ExecuterFIO
             });
         }
 
-        public void UpdElement(BuilderBindingModel model)
+        public void UpdElement(ExecuterBindingModel model)
         {
             int index = -1;
-            for (int i = 0; i < source.Builders.Count; ++i)
+            for (int i = 0; i < source.Executers.Count; ++i)
             {
-                if (source.Builders[i].Id == model.Id)
+                if (source.Executers[i].Id == model.Id)
                 {
                     index = i;
                 }
-                if (source.Builders[i].BuilderFIO == model.BuilderFIO && 
-                    source.Builders[i].Id != model.Id)
+                if (source.Executers[i].ExecuterFIO == model.ExecuterFIO && 
+                    source.Executers[i].Id != model.Id)
                 {
                     throw new Exception("Уже есть сотрудник с таким ФИО");
                 }
@@ -86,16 +86,16 @@ namespace FabricService.ImplementationsList
             {
                 throw new Exception("Элемент не найден");
             }
-            source.Builders[index].BuilderFIO = model.BuilderFIO;
+            source.Executers[index].ExecuterFIO = model.ExecuterFIO;
         }
 
         public void DelElement(int id)
         {
-            for (int i = 0; i < source.Builders.Count; ++i)
+            for (int i = 0; i < source.Executers.Count; ++i)
             {
-                if (source.Builders[i].Id == id)
+                if (source.Executers[i].Id == id)
                 {
-                    source.Builders.RemoveAt(i);
+                    source.Executers.RemoveAt(i);
                     return;
                 }
             }
