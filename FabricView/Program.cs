@@ -19,7 +19,7 @@ namespace FabricView
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(container.Resolve<FormMain>());
+            Application.Run(container.Resolve<FormGeneral>());
         }
 
         public static IUnityContainer BuildUnityContainer()
@@ -28,10 +28,10 @@ namespace FabricView
             currentContainer.RegisterType<ICustomerService, CustomerServiceList>(new HierarchicalLifetimeManager());
             currentContainer.RegisterType<IPartService, PartServiceList>(new HierarchicalLifetimeManager());
             currentContainer.RegisterType<IBuilderService, BuilderServiceList>(new HierarchicalLifetimeManager());
-            currentContainer.RegisterType<IStuffService, StuffServiceList>(new HierarchicalLifetimeManager());
+            currentContainer.RegisterType<IArticleService, ArticleServiceList>(new HierarchicalLifetimeManager());
             currentContainer.RegisterType<IStorageService, StorageServiceList>(new HierarchicalLifetimeManager());
-            currentContainer.RegisterType<IMainService, MainServiceList>(new HierarchicalLifetimeManager());
-            
+            currentContainer.RegisterType<IGeneralService, GeneralServiceList>(new HierarchicalLifetimeManager());
+
             return currentContainer;
         }
     }

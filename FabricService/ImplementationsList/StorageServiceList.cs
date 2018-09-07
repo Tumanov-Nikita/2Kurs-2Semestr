@@ -4,6 +4,9 @@ using FabricService.Interfaces;
 using FabricService.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace FabricService.ImplementationsList
 {
@@ -13,7 +16,7 @@ namespace FabricService.ImplementationsList
 
         public StorageServiceList()
         {
-            source = DataListSingleton.GetExample();
+            source = DataListSingleton.GetInstance();
         }
 
         public List<StorageViewModel> GetList()
@@ -21,8 +24,7 @@ namespace FabricService.ImplementationsList
             List<StorageViewModel> result = new List<StorageViewModel>();
             for (int i = 0; i < source.Storages.Count; ++i)
             {
-                // требуется дополнительно получить список компонентов на складе и их количество
-                List<StoragePartsViewModel> StockComponents = new List<StoragePartsViewModel>();
+                List<StoragePartViewModel> StorageParts = new List<StoragePartViewModel>();
                 for (int j = 0; j < source.StorageParts.Count; ++j)
                 {
                     if (source.StorageParts[j].StorageId == source.Storages[i].Id)
@@ -30,19 +32,19 @@ namespace FabricService.ImplementationsList
                         string componentName = string.Empty;
                         for (int k = 0; k < source.Parts.Count; ++k)
                         {
-                            if (source.StuffParts[j].PartId == source.Parts[k].Id)
+                            if (source.ArticleParts[j].PartId == source.Parts[k].Id)
                             {
                                 componentName = source.Parts[k].PartName;
                                 break;
                             }
                         }
-                        StockComponents.Add(new StoragePartsViewModel
+                        StorageParts.Add(new StoragePartViewModel
                         {
                             Id = source.StorageParts[j].Id,
                             StorageId = source.StorageParts[j].StorageId,
                             PartId = source.StorageParts[j].PartId,
                             PartName = componentName,
-                            Amount = source.StorageParts[j].Amount
+                            Count = source.StorageParts[j].Count
                         });
                     }
                 }
@@ -50,7 +52,7 @@ namespace FabricService.ImplementationsList
                 {
                     Id = source.Storages[i].Id,
                     StorageName = source.Storages[i].StorageName,
-                    StorageParts = StockComponents
+                    StorageParts = StorageParts
                 });
             }
             return result;
@@ -60,8 +62,7 @@ namespace FabricService.ImplementationsList
         {
             for (int i = 0; i < source.Storages.Count; ++i)
             {
-                // требуется дополнительно получить список компонентов на складе и их количество
-                List<StoragePartsViewModel> StockComponents = new List<StoragePartsViewModel>();
+                List<StoragePartViewModel> StorageParts = new List<StoragePartViewModel>();
                 for (int j = 0; j < source.StorageParts.Count; ++j)
                 {
                     if (source.StorageParts[j].StorageId == source.Storages[i].Id)
@@ -69,19 +70,19 @@ namespace FabricService.ImplementationsList
                         string componentName = string.Empty;
                         for (int k = 0; k < source.Parts.Count; ++k)
                         {
-                            if (source.StuffParts[j].PartId == source.Parts[k].Id)
+                            if (source.ArticleParts[j].PartId == source.Parts[k].Id)
                             {
                                 componentName = source.Parts[k].PartName;
                                 break;
                             }
                         }
-                        StockComponents.Add(new StoragePartsViewModel
+                        StorageParts.Add(new StoragePartViewModel
                         {
                             Id = source.StorageParts[j].Id,
                             StorageId = source.StorageParts[j].StorageId,
                             PartId = source.StorageParts[j].PartId,
                             PartName = componentName,
-                            Amount = source.StorageParts[j].Amount
+                            Count = source.StorageParts[j].Count
                         });
                     }
                 }
@@ -91,7 +92,7 @@ namespace FabricService.ImplementationsList
                     {
                         Id = source.Storages[i].Id,
                         StorageName = source.Storages[i].StorageName,
-                        StorageParts = StockComponents
+                        StorageParts = StorageParts
                     };
                 }
             }
@@ -128,7 +129,7 @@ namespace FabricService.ImplementationsList
                 {
                     index = i;
                 }
-                if (source.Storages[i].StorageName == model.StorageName && 
+                if (source.Storages[i].StorageName == model.StorageName &&
                     source.Storages[i].Id != model.Id)
                 {
                     throw new Exception("Уже есть склад с таким названием");
@@ -143,7 +144,6 @@ namespace FabricService.ImplementationsList
 
         public void DelElement(int id)
         {
-            // при удалении удаляем все записи о компонентах на удаляемом складе
             for (int i = 0; i < source.StorageParts.Count; ++i)
             {
                 if (source.StorageParts[i].StorageId == id)
@@ -162,4 +162,5 @@ namespace FabricService.ImplementationsList
             throw new Exception("Элемент не найден");
         }
     }
+
 }

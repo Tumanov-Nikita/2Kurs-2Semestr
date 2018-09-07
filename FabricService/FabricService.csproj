@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2BC53217-7680-45D4-970E-944996E6AB2E}</ProjectGuid>
+    <ProjectGuid>{C41B994A-42F3-4D68-BB17-F1A16DAC3DFB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FabricService</RootNamespace>
     <AssemblyName>FabricService</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -40,42 +40,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BindingModels\ArticleBindingModel.cs" />
+    <Compile Include="BindingModels\ArticlePartBindingModel.cs" />
+    <Compile Include="BindingModels\BuilderBindingModel.cs" />
+    <Compile Include="BindingModels\ContractBindingModel.cs" />
     <Compile Include="BindingModels\CustomerBindingModel.cs" />
     <Compile Include="BindingModels\PartBindingModel.cs" />
-    <Compile Include="BindingModels\BuilderBindingModel.cs" />
-    <Compile Include="BindingModels\BookingBindingModel.cs" />
-    <Compile Include="BindingModels\StuffBindingModel.cs" />
-    <Compile Include="BindingModels\StuffPartsBindingModel.cs" />
     <Compile Include="BindingModels\StorageBindingModel.cs" />
-    <Compile Include="BindingModels\StoragePartsBindingModel.cs" />
-    <Compile Include="DataList.cs" />
-    <Compile Include="ImplementationsList\CustomerServiceList.cs" />
-    <Compile Include="ImplementationsList\PartServiceList.cs" />
+    <Compile Include="BindingModels\StoragePartBindingModel.cs" />
+    <Compile Include="DataListSingleton.cs" />
+    <Compile Include="ImplementationsList\ArticleServiceList.cs" />
     <Compile Include="ImplementationsList\BuilderServiceList.cs" />
-    <Compile Include="ImplementationsList\MainServiceList.cs" />
-    <Compile Include="ImplementationsList\StuffServiceList.cs" />
+    <Compile Include="ImplementationsList\CustomerServiceList.cs" />
+    <Compile Include="ImplementationsList\GeneralServiceList.cs" />
+    <Compile Include="ImplementationsList\PartServiceList.cs" />
     <Compile Include="ImplementationsList\StorageServiceList.cs" />
-    <Compile Include="Interfaces\ICustomerService.cs" />
-    <Compile Include="Interfaces\IPartService.cs" />
+    <Compile Include="Interfaces\IArticleService.cs" />
     <Compile Include="Interfaces\IBuilderService.cs" />
-    <Compile Include="Interfaces\IMainService.cs" />
-    <Compile Include="Interfaces\IStuffService.cs" />
+    <Compile Include="Interfaces\ICustomerService.cs" />
+    <Compile Include="Interfaces\IGeneralService.cs" />
+    <Compile Include="Interfaces\IPartService.cs" />
     <Compile Include="Interfaces\IStorageService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\ArticlePartViewModel.cs" />
+    <Compile Include="ViewModels\ArticleViewModel.cs" />
+    <Compile Include="ViewModels\BuilderViewModel.cs" />
+    <Compile Include="ViewModels\ContractViewModel.cs" />
     <Compile Include="ViewModels\CustomerViewModel.cs" />
     <Compile Include="ViewModels\PartViewModel.cs" />
-    <Compile Include="ViewModels\BuilderViewModel.cs" />
-    <Compile Include="ViewModels\BookingViewModel.cs" />
-    <Compile Include="ViewModels\StuffPartsViewModel.cs" />
-    <Compile Include="ViewModels\StuffViewModel.cs" />
-    <Compile Include="ViewModels\StoragePartsViewModel.cs" />
+    <Compile Include="ViewModels\StoragePartViewModel.cs" />
     <Compile Include="ViewModels\StorageViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FabricModel\FabricModel.csproj">
-      <Project>{5edcfafa-0f3a-4810-8489-4d221a86ad1e}</Project>
+    <ProjectReference Include="..\Fabric\FabricModel.csproj">
+      <Project>{4497f6c4-6737-43eb-941a-b9f636af6f3f}</Project>
       <Name>FabricModel</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
 </Project>

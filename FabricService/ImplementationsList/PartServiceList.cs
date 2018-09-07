@@ -4,6 +4,9 @@ using FabricService.Interfaces;
 using FabricService.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace FabricService.ImplementationsList
 {
@@ -13,7 +16,7 @@ namespace FabricService.ImplementationsList
 
         public PartServiceList()
         {
-            source = DataListSingleton.GetExample();
+            source = DataListSingleton.GetInstance();
         }
 
         public List<PartViewModel> GetList()
@@ -60,7 +63,7 @@ namespace FabricService.ImplementationsList
                     throw new Exception("Уже есть компонент с таким названием");
                 }
             }
-            source.Parts.Add(new Parts
+            source.Parts.Add(new Part
             {
                 Id = maxId + 1,
                 PartName = model.PartName
@@ -76,7 +79,7 @@ namespace FabricService.ImplementationsList
                 {
                     index = i;
                 }
-                if (source.Parts[i].PartName == model.PartName && 
+                if (source.Parts[i].PartName == model.PartName &&
                     source.Parts[i].Id != model.Id)
                 {
                     throw new Exception("Уже есть компонент с таким названием");

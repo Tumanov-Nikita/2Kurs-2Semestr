@@ -4,6 +4,9 @@ using FabricService.Interfaces;
 using FabricService.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace FabricService.ImplementationsList
 {
@@ -13,7 +16,7 @@ namespace FabricService.ImplementationsList
 
         public CustomerServiceList()
         {
-            source = DataListSingleton.GetExample();
+            source = DataListSingleton.GetInstance();
         }
 
         public List<CustomerViewModel> GetList()
@@ -60,7 +63,8 @@ namespace FabricService.ImplementationsList
                     throw new Exception("Уже есть клиент с таким ФИО");
                 }
             }
-            source.Customers.Add(new Customer {
+            source.Customers.Add(new Customer
+            {
                 Id = maxId + 1,
                 CustomerFIO = model.CustomerFIO
             });
@@ -75,7 +79,7 @@ namespace FabricService.ImplementationsList
                 {
                     index = i;
                 }
-                if (source.Customers[i].CustomerFIO == model.CustomerFIO && 
+                if (source.Customers[i].CustomerFIO == model.CustomerFIO &&
                     source.Customers[i].Id != model.Id)
                 {
                     throw new Exception("Уже есть клиент с таким ФИО");
@@ -101,4 +105,5 @@ namespace FabricService.ImplementationsList
             throw new Exception("Элемент не найден");
         }
     }
+
 }

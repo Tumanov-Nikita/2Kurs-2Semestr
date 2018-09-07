@@ -6,6 +6,7 @@ using System.Windows.Forms;
 using Unity;
 using Unity.Attributes;
 
+
 namespace FabricView
 {
     public partial class FormCustomer : Form
@@ -25,7 +26,7 @@ namespace FabricView
             this.service = service;
         }
 
-        private void FormClient_Load(object sender, EventArgs e)
+        private void FormCustomer_Load(object sender, EventArgs e)
         {
             if (id.HasValue)
             {
@@ -46,7 +47,7 @@ namespace FabricView
 
         private void buttonSave_Click(object sender, EventArgs e)
         {
-            if(string.IsNullOrEmpty(textBoxFIO.Text))
+            if (string.IsNullOrEmpty(textBoxFIO.Text))
             {
                 MessageBox.Show("Заполните ФИО", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -83,5 +84,6 @@ namespace FabricView
             DialogResult = DialogResult.Cancel;
             Close();
         }
+
     }
 }

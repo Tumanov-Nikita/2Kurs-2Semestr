@@ -4,6 +4,9 @@ using FabricService.Interfaces;
 using FabricService.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace FabricService.ImplementationsList
 {
@@ -13,7 +16,7 @@ namespace FabricService.ImplementationsList
 
         public BuilderServiceList()
         {
-            source = DataListSingleton.GetExample();
+            source = DataListSingleton.GetInstance();
         }
 
         public List<BuilderViewModel> GetList()
@@ -76,7 +79,7 @@ namespace FabricService.ImplementationsList
                 {
                     index = i;
                 }
-                if (source.Builders[i].BuilderFIO == model.BuilderFIO && 
+                if (source.Builders[i].BuilderFIO == model.BuilderFIO &&
                     source.Builders[i].Id != model.Id)
                 {
                     throw new Exception("Уже есть сотрудник с таким ФИО");
